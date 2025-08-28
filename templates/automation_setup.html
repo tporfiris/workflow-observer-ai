@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup - {{ automation.pattern_name }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Setup Your Automation</h1>
+            <p>{{ automation.pattern_name }}</p>
+            <p style="opacity: 0.8;">Estimated time savings: {{ automation.estimated_savings }}</p>
+        </div>
+        
+        <div class="setup-wizard">
+            <!-- Step 1: Installation -->
+            <div class="setup-step {% if automation.status == 'ready_for_setup' or automation.status == 'installing' %}active{% elif automation.installation_complete %}completed{% endif %}">
+                <div class="step-header">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div class="step-number">1</div>
+                        <div>
+                            <h3>Install Automation Software</h3>
+                            <p style="color: #666;">Install required components (1 minute)</p>
+                        </div>
+                    </div>
+                    {% if automation.installation_complete %}
+                    <span style="color: #4caf50; font-weight: bold;">✅ Complete</span>
+                    {% endif %}
+                </div>
+                
+                {% if not automation.installation_complete %}
+                <p style="margin-bottom: 1rem;">
+                    We need to install some software components to run your automation. 
+                    This is completely automatic and takes about 1 minute.
+                </p>
+                
+                <div id="installation-progress" style="margin: 1rem 0; color: #666;">
+                    {% if automation.status == 'installing' %}
+                    {{ automation.progress }}
+                    {% else %}
+                    Ready to install automation components
+                    {% endif %}
+                </div>
+                
+                {% if automation.status != 'installing' %}
+                <button class="btn btn-success install-btn" onclick="installAutomation('{{ automation_id }}')">
+                    📦 Install Now
+                </button>
+                {% endif %}
+                {% endif %}
+            </div>
+            
+            <!-- Step 2: API Credentials -->
+            <div class="setup-step {% if automation.credentials_valid %}completed{% elif automation.installation_complete %}active{% endif %}" 
+                 id="credentials-step" 
+                 style="{% if not automation.installation_complete %}display: none;{% endif %}">
+                <div class="step-header">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div class="step-number">2</div>
+                        <div>
+                            <h3>Connect Your Apps</h3>
+                            <p style="color: #666;">Setup API connections (5 minutes)</p>
+                        </div>
+                    </div>
+                    {% if automation.credentials_valid %}
+                    <span style="color: #4caf50; font-weight: bold;">✅ Complete</span>
+                    {% endif %}
+                </div>
+                
+                {% if not automation.credentials_valid %}
+                <form id="credentials-form" onsubmit="event.preventDefault(); saveCredentials('{{ automation_id }}');">
+                    <div class="form-group">
+                        <label class="form-label">🔗 QuickBooks API Key</label>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">
+                            Follow these steps to get your API key:
+                            <br>1. <a href="https://developer.intuit.com/" target="_blank">Open QuickBooks Developer Portal</a>
+                            <br>2. Sign in with your QuickBooks account
+                            <br>3. Click "Create an App"
+                            <br>4. Copy the "Client ID" and paste it below
+                        </p>
+                        <input type="text" name="quickbooks_api_key" class="form-input" 
+                               placeholder="Enter your QuickBooks API key here..." required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">📧 Email Provider</label>
+                        <select name="email_provider" class="form-input" required>
+                            <option value="">Select your email provider</option>
+                            <option value="gmail">Gmail</option>
+                            <option value="outlook">Outlook</option>
+                            <option value="exchange">Exchange</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-success credentials-btn">
+                        🔗 Connect & Test
+                    </button>
+                </form>
+                {% endif %}
+            </div>
+            
+            <!-- Step 3: Activation -->
+            <div class="setup-step {% if automation.status == 'active' %}completed{% elif automation.credentials_valid %}active{% endif %}"
+                 id="activation-step"
+                 style="{% if not automation.credentials_valid %}display: none;{% endif %}">
+                <div class="step-header">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div class="step-number">3</div>
+                        <div>
+                            <h3>Activate Your Automation</h3>
+                            <p style="color: #666;">Start saving time (1 click)</p>
+                        </div>
+                    </div>
+                    {% if automation.status == 'active' %}
+                    <span style="color: #4caf50; font-weight: bold;">✅ Active</span>
+                    {% endif %}
+                </div>
+                
+                {% if automation.status != 'active' %}
+                <p style="margin-bottom: 1rem;">
+                    Everything is ready! Click the button below to activate your automation.
+                    It will start monitoring your email for invoices and processing them automatically.
+                </p>
+                
+                <button class="btn btn-success" onclick="activateAutomation('{{ automation_id }}')">
+                    🚀 Activate Automation
+                </button>
+                {% else %}
+                <div class="success-message">
+                    🎉 Your automation is now active and monitoring your email!
+                </div>
+                
+                <div id="success-details">
+                    <h3>What happens next:</h3>
+                    <ul>
+                        <li>Your automation is monitoring email for invoice PDFs</li>
+                        <li>When an invoice arrives, it will be processed automatically</li>
+                        <li>You'll receive a confirmation for each processed invoice</li>
+                    </ul>
+                </div>
+                
+                <a href="/" class="btn" style="margin-top: 1rem;">
+                    📊 Back to Dashboard
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <p style="color: white; opacity: 0.8;">
+                Need help? We're here to assist you every step of the way.
+            </p>
+        </div>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>

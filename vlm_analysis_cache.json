@@ -1,0 +1,92 @@
+{
+  "analysis_cache": {
+    "screenshot_20250827_202437.jpg": {
+      "application": "Microsoft Excel",
+      "detailed_activity": "Viewing a contact information spreadsheet with columns for Name, Phone Number, and Email. The spreadsheet appears to be titled 'candidate-contact-info' and contains two rows of contact data entries. The user has cell C8 selected, and yellow highlighting appears on some column headers. The interface shows they are using standard Excel with the ribbon menu displaying common formatting and editing options. AutoSave is enabled, and they're working with a font size of 12 in Aptos Narrow font.",
+      "image_path": "screenshots/screenshot_20250827_202437.jpg",
+      "analysis_timestamp": "2025-08-27T20:25:55.262954",
+      "filename": "screenshot_20250827_202437.jpg"
+    },
+    "screenshot_20250827_202344.jpg": {
+      "application": "Web Application - Workflow Observer (localhost:8000)",
+      "detailed_activity": "User is on a screen monitoring interface with a system status showing 'Backend is running' at the top. They have encountered a Microsoft Word error dialog while trying to access a file from iCloud Drive in the resume-candidates folder. The error states 'Word had trouble reading from your file' and offers 'Cancel' and 'Retry' options. The interface shows active screen monitoring functionality with 'Start Monitoring' and 'Stop Monitoring' buttons, and displays JSON output indicating a successful screen capture configuration with parameters like 'capture_interval: 10' and 'max_files: 1000'.",
+      "image_path": "screenshots/screenshot_20250827_202344.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:02.738868",
+      "filename": "screenshot_20250827_202344.jpg"
+    },
+    "screenshot_20250827_202427.jpg": {
+      "application": "Microsoft Word for Mac",
+      "detailed_activity": "Viewing/editing a resume document titled 'Jason L - Resume' with Word's ribbon interface visible at top. User has standard formatting toolbar displayed showing font options, styles, and document controls. Document is zoomed to 125% and shows professional summary and work experience sections of a resume. The interface indicates AutoSave is disabled (toggle switch visible in top left) and the document appears to be in editing mode with cursor focus in the main content area. The file's character count (1,006) is visible in the status bar at bottom.",
+      "image_path": "screenshots/screenshot_20250827_202427.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:09.541807",
+      "filename": "screenshot_20250827_202427.jpg"
+    },
+    "screenshot_20250827_202355.jpg": {
+      "application": "Microsoft Word",
+      "detailed_activity": "Viewing and editing a resume document saved as 'Emma R - Resume'. The document is displayed in Word's standard editing interface with full formatting toolbar visible. The resume content is being shown at 103% zoom on page 1 of 1. The user has enabled AutoSave and is in Editing mode with access to Comments and Share features. The document includes standard resume sections like contact information, professional experience, and education, formatted with Times New Roman font at 12pt size. Multiple editing tools are accessible including text formatting, styles, dictation, and add-ins options in the ribbon menu.",
+      "image_path": "screenshots/screenshot_20250827_202355.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:15.715927",
+      "filename": "screenshot_20250827_202355.jpg"
+    },
+    "screenshot_20250827_202520.jpg": {
+      "application": "Microsoft Word - Mac",
+      "detailed_activity": "Editing a resume document titled 'Samantha J - Resume' with AutoSave enabled. The user is viewing the top portion of a professional resume showing contact information, career profile, and the beginning of professional experience sections. The document is being edited in standard view mode at 125% zoom. The ribbon shows formatting tools with Times New Roman font selected at 12pt size. The document appears to be actively being edited as indicated by the 'Editing' status in the top toolbar.",
+      "image_path": "screenshots/screenshot_20250827_202520.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:22.483550",
+      "filename": "screenshot_20250827_202520.jpg"
+    },
+    "screenshot_20250827_202509.jpg": {
+      "application": "Chrome - YouTube",
+      "detailed_activity": "Viewing YouTube's main homepage/feed interface. The user has several video thumbnails visible showing recommended content, with topics like Music, Guitar solos, Gaming, and Sports visible in the navigation bar at top. A Canada vs USA sports highlight video is prominent in the feed. The left sidebar shows standard YouTube navigation elements including Home, Shorts, Subscriptions, History, and Playlists. The search bar is empty and visible at the top center. Multiple browser tabs are open including DentalMission, Google Drive, and others. The interface shows video view counts and timestamps, with some videos showing hundreds of thousands or millions of views.",
+      "image_path": "screenshots/screenshot_20250827_202509.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:31.439925",
+      "filename": "screenshot_20250827_202509.jpg"
+    },
+    "screenshot_20250827_202530.jpg": {
+      "application": "Microsoft Excel",
+      "detailed_activity": "Viewing a contact information spreadsheet titled 'candidate-contact-info' with three columns labeled 'Name', 'Phone Number', and 'Email'. Currently displaying three rows of contact data. The active cell is B4 which contains a phone number (555) 274-9911. The spreadsheet has basic formatting with yellow highlighted column headers and appears to be used for tracking candidate or contact information in a structured format. User has the AutoSave feature enabled and is using a 12-point Aptos Narrow font.",
+      "image_path": "screenshots/screenshot_20250827_202530.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:38.526991",
+      "filename": "screenshot_20250827_202530.jpg"
+    },
+    "screenshot_20250827_202334.jpg": {
+      "application": "Chrome - Workflow Observer AI Dashboard",
+      "detailed_activity": "Viewing the main dashboard of a screen monitoring application at localhost:8000. The interface shows a system status banner indicating 'Backend is running and ready'. Under the Screen Monitoring section, there are three buttons: 'Start Monitoring', 'Stop Monitoring', and 'Check Status'. A JSON response is displayed showing monitoring configuration details including capture interval of 10, max files of 1000, and a message indicating screen capture has started for 7 days. The user is viewing monitoring status information on the dashboard interface.",
+      "image_path": "screenshots/screenshot_20250827_202334.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:45.178699",
+      "filename": "screenshot_20250827_202334.jpg"
+    },
+    "screenshot_20250827_202448.jpg": {
+      "application": "Microsoft Excel",
+      "detailed_activity": "Working in a contact information spreadsheet with three columns: Name, Phone Number, and Email. The user has entered data for two contacts and appears to be editing or reviewing cell C3 containing an email address 'jason.monroe@email.com'. The spreadsheet has 'candidate-contact-info' visible in the document title tab. The Excel interface shows standard formatting tools and options, with the 'AutoSave' feature enabled.",
+      "image_path": "screenshots/screenshot_20250827_202448.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:51.495152",
+      "filename": "screenshot_20250827_202448.jpg"
+    },
+    "screenshot_20250827_202458.jpg": {
+      "application": "Chrome - Workflow Observer AI Dashboard",
+      "detailed_activity": "Viewing the screen monitoring section of an AI workflow dashboard at localhost:8000. The interface shows a system status banner indicating 'Backend is running and ready'. The user has initiated screen capture monitoring as shown by the JSON response displaying status 'started', with parameters set for 7 days duration, 10 second capture intervals, and 1000 maximum files. Three control buttons are visible: 'Start Monitoring', 'Stop Monitoring', and 'Check Status'. The dashboard appears to be a tool for capturing and analyzing user workflows through automated screenshot collection.",
+      "image_path": "screenshots/screenshot_20250827_202458.jpg",
+      "analysis_timestamp": "2025-08-27T20:26:58.780319",
+      "filename": "screenshot_20250827_202458.jpg"
+    },
+    "screenshot_20250827_202416.jpg": {
+      "application": "Microsoft Excel",
+      "detailed_activity": "Working in a contact information spreadsheet with column headers 'Name', 'Phone Number', and 'Email'. The first row contains data with a phone number in (555) format and an email address. The spreadsheet is currently on Sheet1 and appears to be a contact list or database. The user has the AutoSave feature enabled and is using the Aptos Narrow font. There is a small green cell selection indicator visible in cell position E7.",
+      "image_path": "screenshots/screenshot_20250827_202416.jpg",
+      "analysis_timestamp": "2025-08-27T20:27:05.418314",
+      "filename": "screenshot_20250827_202416.jpg"
+    },
+    "screenshot_20250827_202406.jpg": {
+      "application": "Microsoft Word",
+      "detailed_activity": "Viewing/editing a resume document titled 'Emma R - Resume' with menu bar and ribbon interface visible. Document shows professional experience and education sections with accounting background. User has AutoSave enabled, is in editing mode (indicated by toolbar), and document is set to 103% zoom level. The interface shows standard Word formatting options including font styles, paragraph alignment, and document sharing capabilities. Document appears to be saved locally on a Mac as indicated by the file path.",
+      "image_path": "screenshots/screenshot_20250827_202406.jpg",
+      "analysis_timestamp": "2025-08-27T20:27:11.513017",
+      "filename": "screenshot_20250827_202406.jpg"
+    }
+  },
+  "total_analyses": 12,
+  "last_updated": "2025-08-27T20:27:11.513102",
+  "analyzer_version": "optimized_v1.0",
+  "focus": "application_identification_and_detailed_activity"
+}

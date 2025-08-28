@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Observer AI - Automation Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Workflow Observer AI</h1>
+            <p>Intelligent automation for your repetitive tasks</p>
+        </div>
+        
+        <div class="dashboard-stats">
+            <div class="stat-card">
+                <span class="stat-number">{{ total_patterns }}</span>
+                <div class="stat-label">Patterns Detected</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">{{ active_automations }}</span>
+                <div class="stat-label">Active Automations</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">{{ automations|length }}</span>
+                <div class="stat-label">Total Automations</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">5+ hrs</span>
+                <div class="stat-label">Weekly Time Saved</div>
+            </div>
+        </div>
+        
+        {% if detected_patterns %}
+        <h2 style="color: white; margin-bottom: 2rem; text-align: center;">🔍 Detected Workflow Patterns</h2>
+        
+        <div class="patterns-grid">
+            {% for pattern in detected_patterns %}
+            <div class="pattern-card">
+                <div class="pattern-header">
+                    <div>
+                        <h3 class="pattern-title">{{ pattern.pattern_name }}</h3>
+                        <p style="color: #666; font-size: 0.9rem;">{{ pattern.pattern_type.replace('_', ' ').title() }}</p>
+                    </div>
+                    <div class="automation-score">
+                        {{ pattern.automation_potential }}/10
+                    </div>
+                </div>
+                
+                <div class="pattern-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Frequency:</span>
+                        <span class="detail-value">{{ pattern.frequency }}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Time Savings:</span>
+                        <span class="detail-value">{{ pattern.time_savings_estimate }}</span>
+                    </div>
+                </div>
+                
+                <div class="apps-involved">
+                    {% for app in pattern.applications_involved %}
+                    <span class="app-tag">{{ app }}</span>
+                    {% endfor %}
+                </div>
+                
+                <p style="color: #666; font-size: 0.9rem; margin: 1rem 0;">
+                    {{ pattern.business_value }}
+                </p>
+                
+                <button class="btn btn-large" onclick="generateAutomation('{{ pattern.pattern_name }}')">
+                    🚀 Create My Automation
+                </button>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            Loading workflow patterns...
+        </div>
+        {% endif %}
+        
+        {% if automations %}
+        <h2 style="color: white; margin: 3rem 0 2rem 0; text-align: center;">⚙️ Your Automations</h2>
+        
+        <div class="patterns-grid">
+            {% for automation in automations %}
+            <div class="pattern-card">
+                <div class="pattern-header">
+                    <div>
+                        <h3 class="pattern-title">{{ automation.pattern_name }}</h3>
+                        <p style="color: #666; font-size: 0.9rem;">{{ automation.status.replace('_', ' ').title() }}</p>
+                    </div>
+                    <div class="automation-score" style="
+                        {% if automation.status == 'active' %}background: linear-gradient(135deg, #2ed573, #1dd1a1);
+                        {% elif automation.status == 'ready' %}background: linear-gradient(135deg, #ffa726, #ff9800);
+                        {% else %}background: linear-gradient(135deg, #667eea, #764ba2);{% endif %}
+                    ">
+                        {% if automation.status == 'active' %}✅ Live
+                        {% elif automation.status == 'ready' %}⚡ Ready
+                        {% else %}⏳ Setup{% endif %}
+                    </div>
+                </div>
+                
+                <div class="pattern-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Created:</span>
+                        <span class="detail-value">{{ automation.created_at[:10] }}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Saves:</span>
+                        <span class="detail-value">{{ automation.estimated_savings }}</span>
+                    </div>
+                    {% if automation.processed_count is defined %}
+                    <div class="detail-row">
+                        <span class="detail-label">Processed:</span>
+                        <span class="detail-value">{{ automation.processed_count }} items</span>
+                    </div>
+                    {% endif %}
+                </div>
+                
+                <p style="color: #666; font-size: 0.9rem; margin: 1rem 0;">
+                    {{ automation.progress }}
+                </p>
+                
+                <a href="/automation/{{ automation.id }}" class="btn btn-large">
+                    {% if automation.status == 'active' %}📊 View Dashboard
+                    {% elif automation.status == 'ready' %}🚀 Activate
+                    {% else %}⚙️ Continue Setup{% endif %}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>

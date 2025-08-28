@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Screenshot Details - Workflow Observer AI</title>
+    <style>
+        /* Enhanced screenshot detail view with VLM analysis */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .nav-controls {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        
+        .btn {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-1px);
+        }
+        
+        .btn:disabled {
+            background: rgba(255,255,255,0.1);
+            cursor: not-allowed;
+            transform: none;
+            opacity: 0.5;
+        }
+        
+        .btn-primary {
+            background: #28a745;
+            border-color: #28a745;
+        }
+        
+        .btn-primary:hover {
+            background: #218838;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2rem;
+            margin: 2rem auto;
+        }
+        
+        .screenshot-section {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        .screenshot-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-height: 70vh;
+            object-fit: contain;
+            background: #f8f9fa;
+        }
+        
+        .screenshot-controls {
+            padding: 1rem;
+            background: #f8f9fa;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .zoom-controls {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        
+        .zoom-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+        }
+        
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        .info-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .metadata-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+        
+        .metadata-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .metadata-item:last-child {
+            border-bottom: none;
+        }
+        
+        .metadata-label {
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .metadata-value {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        /* VLM Analysis Styling */
+        .vlm-analysis-card {
+            border-left: 4px solid #28a745;
+            background: linear-gradient(135deg, #f8fff9 0%, #f0f8f0 100%);
+        }
+        
+        .vlm-analysis-content {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .vlm-field {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 0.75rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e8f5e8;
+        }
+        
+        .vlm-field-label {
+            font-weight: 600;
+            color: #2c3e50;
+            min-width: 120px;
+        }
+        
+        .vlm-field-value {
+            color: #28a745;
+            font-weight: 500;
+            text-align: right;
+            flex: 1;
+        }
+        
+        .automation-score {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        
+        .automation-1, .automation-2 {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            color: white;
+        }
+        
+        .automation-3 {
+            background: linear-gradient(135deg, #feca57, #ff9ff3);
+            color: #2c3e50;
+        }
+        
+        .automation-4, .automation-5 {
+            background: linear-gradient(135deg, #48cab2, #2ed573);
+            color: white;
+        }
+        
+        .task-description {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+            font-style: italic;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+        
+        .ui-elements {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .ui-element-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 0.25rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .confidence-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+        
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #20c997);
+            transition: width 0.3s ease;
+        }
+        
+        .analyze-button {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .analyze-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(40, 167, 69, 0.3);
+        }
+        
+        .analyze-button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .error-state {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 3px solid #dc3545;
+        }
+        
+        .loading-state {
+            text-align: center;
+            padding: 2rem;
+            color: #6c757d;
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #28a745;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 0.5rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Annotation form styling */
+        .annotation-form {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .form-group {
+            display: grid;
+            gap: 0.5rem;
+        }
+        
+        .form-label {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .form-select, .form-textarea {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: border-color 0.2s;
+        }
+        
+        .form-select:focus, .form-textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .form-textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        
+        .annotation-display {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 0.75rem;
+            border-radius: 6px;
+            border: 1px solid #c3e6cb;
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 968px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .nav-controls {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1>🔍 Enhanced Screenshot Analysis</h1>
+                
+                <div class="nav-controls">
+                    <a href="/" class="btn">← Back to Grid</a>
+                    
+                    {% if navigation.has_previous %}
+                        <a href="/screenshot/{{ navigation.previous_index }}" class="btn">← Previous</a>
+                    {% else %}
+                        <button class="btn" disabled>← Previous</button>
+                    {% endif %}
+                    
+                    <span style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">
+                        {{ navigation.current_index + 1 }} of {{ navigation.total_count }}
+                    </span>
+                    
+                    {% if navigation.has_next %}
+                        <a href="/screenshot/{{ navigation.next_index }}" class="btn">Next →</a>
+                    {% else %}
+                        <button class="btn" disabled>Next →</button>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+            <!-- Main Screenshot Display -->
+            <div class="screenshot-section">
+                <img src="{{ screenshot.web_path }}" 
+                     alt="Screenshot from {{ screenshot.timestamp_str }}"
+                     class="screenshot-image"
+                     id="mainImage">
+                
+                <div class="screenshot-controls">
+                    <div class="zoom-controls">
+                        <button class="zoom-btn" onclick="zoomImage(0.8)">-</button>
+                        <span id="zoomLevel">100%</span>
+                        <button class="zoom-btn" onclick="zoomImage(1.2)">+</button>
+                        <button class="zoom-btn" onclick="resetZoom()">Reset</button>
+                    </div>
+                    
+                    <div>
+                        <a href="{{ screenshot.web_path }}" target="_blank" class="btn btn-primary">
+                            🔍 Open Full Size
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Enhanced Sidebar with VLM Analysis -->
+            <div class="sidebar">
+                <!-- VLM Analysis Card -->
+                {% if screenshot.has_vlm_analysis %}
+                    <div class="info-card vlm-analysis-card">
+                        <h3>🤖 AI Workflow Analysis</h3>
+                        
+                        <div class="vlm-analysis-content">
+                            <!-- Application -->
+                            <div class="vlm-field">
+                                <span class="vlm-field-label">Application</span>
+                                <span class="vlm-field-value">{{ screenshot.vlm_analysis.application }}</span>
+                            </div>
+                            
+                            <!-- Screen Type -->
+                            <div class="vlm-field">
+                                <span class="vlm-field-label">Screen Type</span>
+                                <span class="vlm-field-value">{{ screenshot.vlm_analysis.screen_type }}</span>
+                            </div>
+                            
+                            <!-- Automation Potential -->
+                            {% if screenshot.vlm_analysis.automation_potential is defined %}
+                            <div class="vlm-field">
+                                <span class="vlm-field-label">Automation Potential</span>
+                                <div class="automation-score automation-{{ screenshot.vlm_analysis.automation_potential }}">
+                                    🤖 {{ screenshot.vlm_analysis.automation_potential }}/5
+                                    {% if screenshot.vlm_analysis.automation_potential >= 4 %}
+                                        <span style="margin-left: 0.5rem;">⭐ High Priority</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            <!-- Confidence -->
+                            {% if screenshot.vlm_analysis.confidence is defined %}
+                            <div class="vlm-field">
+                                <span class="vlm-field-label">AI Confidence</span>
+                                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <span class="vlm-field-value">{{ (screenshot.vlm_analysis.confidence * 100)|round }}%</span>
+                                    <div class="confidence-bar" style="flex: 1; max-width: 100px;">
+                                        <div class="confidence-fill" style="width: {{ (screenshot.vlm_analysis.confidence * 100)|round }}%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            <!-- Task Description -->
+                            {% if screenshot.vlm_analysis.task_description %}
+                            <div class="task-description">
+                                <strong>Task Analysis:</strong><br>
+                                "{{ screenshot.vlm_analysis.task_description }}"
+                            </div>
+                            {% endif %}
+                            
+                            <!-- UI Elements -->
+                            {% if screenshot.vlm_analysis.ui_elements %}
+                            <div>
+                                <div class="vlm-field-label" style="margin-bottom: 0.5rem;">Detected UI Elements:</div>
+                                <div class="ui-elements">
+                                    {% for element in screenshot.vlm_analysis.ui_elements %}
+                                        <span class="ui-element-tag">{{ element }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            <!-- Analysis Timestamp -->
+                            {% if screenshot.vlm_analysis.analysis_timestamp %}
+                            <div style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 1rem;">
+                                Analyzed: {{ screenshot.vlm_analysis.analysis_timestamp[:19]|replace('T', ' ') }}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% else %}
+                    <!-- No VLM Analysis Available -->
+                    <div class="info-card">
+                        <h3>🤖 AI Analysis</h3>
+                        
+                        {% if vlm_available %}
+                            <div style="text-align: center;">
+                                <p style="margin-bottom: 1rem; color: #666;">
+                                    No AI analysis available for this screenshot yet.
+                                </p>
+                                
+                                <button id="analyzeBtn" onclick="analyzeCurrentScreenshot()" class="analyze-button">
+                                    🤖 Analyze with Claude Vision
+                                </button>
+                                
+                                <div id="analysisStatus" style="display: none; margin-top: 1rem;">
+                                    <div class="loading-state">
+                                        <div class="loading-spinner"></div>
+                                        Analyzing with Claude Vision...
+                                    </div>
+                                </div>
+                            </div>
+                        {% else %}
+                            <div class="error-state">
+                                <strong>VLM Analysis Unavailable</strong><br>
+                                Set your ANTHROPIC_API_KEY environment variable to enable AI analysis.
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
+                
+                <!-- Screenshot Metadata -->
+                <div class="info-card">
+                    <h3>📊 Screenshot Info</h3>
+                    <div class="metadata-grid">
+                        <div class="metadata-item">
+                            <span class="metadata-label">Timestamp</span>
+                            <span class="metadata-value">{{ screenshot.timestamp_str }}</span>
+                        </div>
+                        <div class="metadata-item">
+                            <span class="metadata-label">Dimensions</span>
+                            <span class="metadata-value">{{ screenshot.metadata.dimensions }}</span>
+                        </div>
+                        <div class="metadata-item">
+                            <span class="metadata-label">File Size</span>
+                            <span class="metadata-value">{{ screenshot.metadata.file_size_mb }}MB</span>
+                        </div>
+                        <div class="metadata-item">
+                            <span class="metadata-label">Format</span>
+                            <span class="metadata-value">{{ screenshot.metadata.format }}</span>
+                        </div>
+                        <div class="metadata-item">
+                            <span class="metadata-label">Filename</span>
+                            <span class="metadata-value">{{ screenshot.filename }}</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Manual Annotation Section -->
+                <div class="info-card">
+                    <h3>📝 Manual Annotation</h3>
+                    
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        Annotation saved successfully!
+                    </div>
+                    
+                    {% if screenshot.has_annotation %}
+                        <div class="annotation-display">
+                            <div style="font-weight: 600; color: #007bff; text-transform: capitalize; margin-bottom: 0.5rem;">
+                                {{ screenshot.annotation.type }}
+                            </div>
+                            {% if screenshot.annotation.note %}
+                                <div style="color: #666; font-style: italic;">
+                                    "{{ screenshot.annotation.note }}"
+                                </div>
+                            {% endif %}
+                            <div style="font-size: 0.8rem; color: #999; margin-top: 0.5rem;">
+                                Added: {{ screenshot.annotation.timestamp }}
+                            </div>
+                        </div>
+                        
+                        <button onclick="toggleAnnotationForm()" class="btn btn-primary" style="margin-top: 1rem; width: 100%;">
+                            ✏️ Edit Annotation
+                        </button>
+                    {% else %}
+                        <p style="color: #666; margin-bottom: 1rem;">
+                            Add a manual annotation to complement the AI analysis.
+                        </p>
+                    {% endif %}
+                    
+                    <form id="annotationForm" class="annotation-form" 
+                          style="{% if screenshot.has_annotation %}display: none;{% endif %}"
+                          onsubmit="submitAnnotation(event)">
+                        <div class="form-group">
+                            <label class="form-label">Workflow Type</label>
+                            <select name="annotation_type" class="form-select" required>
+                                <option value="">Select type...</option>
+                                <option value="repetitive">🔄 Repetitive Task</option>
+                                <option value="data-entry">📝 Data Entry</option>
+                                <option value="copy-paste">📋 Copy & Paste</option>
+                                <option value="email">📧 Email Related</option>
+                                <option value="form-filling">📄 Form Filling</option>
+                                <option value="file-management">📁 File Management</option>
+                                <option value="web-browsing">🌐 Web Browsing</option>
+                                <option value="interesting">⭐ Interesting</option>
+                                <option value="automation-candidate">🤖 Automation Candidate</option>
+                                <option value="other">❓ Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Notes (Optional)</label>
+                            <textarea name="note" class="form-textarea" 
+                                      placeholder="Describe what's happening in this screenshot..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            💾 Save Annotation
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Quick Navigation -->
+                <div class="info-card">
+                    <h3>🧭 Quick Navigation</h3>
+                    <div style="display: grid; gap: 0.5rem;">
+                        {% if navigation.has_previous %}
+                            <a href="/screenshot/{{ navigation.previous_index }}" class="btn">← Previous Screenshot</a>
+                        {% endif %}
+                        
+                        {% if navigation.has_next %}
+                            <a href="/screenshot/{{ navigation.next_index }}" class="btn">Next Screenshot →</a>
+                        {% endif %}
+                        
+                        <a href="/" class="btn btn-primary">📋 Back to Overview</a>
+                    </div>
+                    
+                    <div style="margin-top: 1rem; text-align: center; color: #666; font-size: 0.9rem;">
+                        Use ← → arrow keys to navigate
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let currentZoom = 1;
+        const img = document.getElementById('mainImage');
+        const zoomDisplay = document.getElementById('zoomLevel');
+        
+        function zoomImage(factor) {
+            currentZoom *= factor;
+            currentZoom = Math.max(0.1, Math.min(currentZoom, 5));
+            img.style.transform = `scale(${currentZoom})`;
+            img.style.transformOrigin = 'center';
+            zoomDisplay.textContent = Math.round(currentZoom * 100) + '%';
+        }
+        
+        function resetZoom() {
+            currentZoom = 1;
+            img.style.transform = 'scale(1)';
+            zoomDisplay.textContent = '100%';
+        }
+        
+        function toggleAnnotationForm() {
+            const form = document.getElementById('annotationForm');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+        
+        async function submitAnnotation(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const annotationType = formData.get('annotation_type');
+            const note = formData.get('note');
+            
+            try {
+                const response = await fetch(`/annotate/{{ screenshot.filename }}?annotation_type=${encodeURIComponent(annotationType)}&note=${encodeURIComponent(note)}`, {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const successMessage = document.getElementById('successMessage');
+                    successMessage.style.display = 'block';
+                    
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 1500);
+                } else {
+                    alert('Error saving annotation. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error saving annotation. Please try again.');
+            }
+        }
+        
+        async function analyzeCurrentScreenshot() {
+            const button = document.getElementById('analyzeBtn');
+            const status = document.getElementById('analysisStatus');
+            
+            button.style.display = 'none';
+            status.style.display = 'block';
+            
+            try {
+                const response = await fetch('/analyze/{{ screenshot.filename }}', {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    if (result.success) {
+                        // Reload page to show analysis
+                        window.location.reload();
+                    } else {
+                        throw new Error('Analysis failed');
+                    }
+                } else {
+                    throw new Error('Request failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                status.innerHTML = '<div class="error-state">Analysis failed. Please try again.</div>';
+                
+                setTimeout(() => {
+                    button.style.display = 'block';
+                    status.style.display = 'none';
+                }, 3000);
+            }
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
+                return;
+            }
+            
+            if (e.key === 'ArrowLeft' && {{ 'true' if navigation.has_previous else 'false' }}) {
+                window.location.href = '/screenshot/{{ navigation.previous_index }}';
+            } else if (e.key === 'ArrowRight' && {{ 'true' if navigation.has_next else 'false' }}) {
+                window.location.href = '/screenshot/{{ navigation.next_index }}';
+            } else if (e.key === 'Escape') {
+                window.location.href = '/';
+            }
+        });
+        
+        // Mouse wheel zoom
+        img.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            const factor = e.deltaY > 0 ? 0.9 : 1.1;
+            zoomImage(factor);
+        });
+    </script>
+</body>
+</html>

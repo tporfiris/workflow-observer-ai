@@ -1,0 +1,11 @@
+{
+    "resume_folder": "/path/to/resumes",
+    "excel_output": "/path/to/output/contacts.xlsx",
+    "notification_email": "user@example.com",
+    "smtp_settings": {
+        "server": "smtp.gmail.com",
+        "port": 587,
+        "username": "your-email@gmail.com",
+        "password": "your-app-password"
+    }
+}

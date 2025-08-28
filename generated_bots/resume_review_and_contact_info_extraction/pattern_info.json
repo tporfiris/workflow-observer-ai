@@ -1,0 +1,44 @@
+{
+  "pattern_name": "Resume Review and Contact Info Extraction",
+  "pattern_type": "data_entry",
+  "frequency": "multiple times per day",
+  "applications_involved": [
+    "Microsoft Word",
+    "Microsoft Excel"
+  ],
+  "workflow_steps": [
+    "Step 1: Open candidate resume in Word",
+    "Step 2: Review resume content",
+    "Step 3: Switch to Excel contact spreadsheet",
+    "Step 4: Enter candidate contact information from resume into spreadsheet"
+  ],
+  "automation_potential": 8,
+  "automation_reasoning": "Structured data extraction from resumes is feasible with modern OCR and NLP. Contact information follows predictable patterns and can be automatically parsed.",
+  "business_value": "Reduces manual data entry, eliminates errors, speeds up candidate processing",
+  "implementation_approach": "RPA bot with document processing capabilities (OCR + NLP) to extract contact details from resumes and populate Excel",
+  "time_savings_estimate": "3-5 minutes per resume",
+  "sample_occurrences": [
+    {
+      "start_time": "2025-08-27T20:26:15",
+      "end_time": "2025-08-27T20:26:51",
+      "duration_minutes": 3,
+      "activities": [
+        "Open Emma R resume",
+        "View resume content",
+        "Switch to contact spreadsheet",
+        "Enter contact information"
+      ]
+    },
+    {
+      "start_time": "2025-08-27T20:26:09",
+      "end_time": "2025-08-27T20:26:38",
+      "duration_minutes": 3,
+      "activities": [
+        "Open Jason L resume",
+        "View resume content",
+        "Switch to contact spreadsheet",
+        "Enter contact information"
+      ]
+    }
+  ]
+}

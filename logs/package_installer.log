@@ -1,0 +1,501 @@
+2025-08-04 18:55:40,643 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:55:45,864 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:55:51,074 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:55:56,122 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:01,447 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:06,903 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:11,656 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:17,145 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:23,359 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:29,611 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:35,293 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:41,691 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:46,911 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:53,363 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:56:59,960 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:57:16,505 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:58:14,157 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 18:58:48,257 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-04 19:09:29,091 - INFO - Setting up complete environment for bot: resume_file_management
+2025-08-04 19:09:29,092 - INFO - Creating virtual environment for resume_file_management
+2025-08-04 19:09:29,092 - INFO - Creating virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:09:31,330 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:09:33,586 - INFO - Installing packages for resume_file_management
+2025-08-04 19:09:33,586 - INFO - Installing 6 packages: Pillow>=9.0.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:09:33,586 - INFO - Running: generated_bots/resume_file_management/venv/bin/python -m pip install -r generated_bots/resume_file_management/requirements.txt --timeout 300
+2025-08-04 19:09:33,588 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:09:33,588 - ERROR - Environment setup failed for resume_file_management: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:09:33,588 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-04 19:09:33,588 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-04 19:09:33,588 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:09:35,462 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:09:36,791 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-04 19:09:36,791 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:09:36,792 - INFO - Running: generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300
+2025-08-04 19:09:36,793 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:09:36,793 - ERROR - Environment setup failed for resume_review_and_contact_entry: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:13:54,208 - INFO - Setting up complete environment for bot: resume_file_management
+2025-08-04 19:13:54,209 - INFO - Creating virtual environment for resume_file_management
+2025-08-04 19:13:54,209 - INFO - Removing existing virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:13:54,332 - INFO - Creating virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:13:56,611 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:13:57,923 - INFO - Installing packages for resume_file_management
+2025-08-04 19:13:57,924 - INFO - Installing 6 packages: Pillow>=9.0.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:13:57,924 - INFO - Running: generated_bots/resume_file_management/venv/bin/python -m pip install -r generated_bots/resume_file_management/requirements.txt --timeout 300
+2025-08-04 19:13:57,926 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:13:57,926 - ERROR - Environment setup failed for resume_file_management: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:13:57,926 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-04 19:13:57,926 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-04 19:13:57,926 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:13:58,032 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:13:59,991 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:14:01,191 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-04 19:14:01,192 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:14:01,192 - INFO - Running: generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300
+2025-08-04 19:14:01,193 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:14:01,194 - ERROR - Environment setup failed for resume_review_and_contact_entry: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:16:46,942 - INFO - Setting up complete environment for bot: resume_file_management
+2025-08-04 19:16:46,943 - INFO - Creating virtual environment for resume_file_management
+2025-08-04 19:16:46,943 - INFO - Removing existing virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:16:48,042 - INFO - Creating virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:16:50,436 - INFO - Testing Python executable...
+2025-08-04 19:16:50,669 - INFO - Python version: Python 3.11.5
+2025-08-04 19:16:50,669 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:16:51,969 - INFO - Installing packages for resume_file_management
+2025-08-04 19:16:51,970 - INFO - Found Python executable: generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:16:51,981 - INFO - Installing 6 packages: Pillow>=9.0.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:16:51,981 - INFO - Attempt 1/3 - Running: generated_bots/resume_file_management/venv/bin/python -m pip install -r generated_bots/resume_file_management/requirements.txt --timeout 300 --no-cache-dir
+2025-08-04 19:16:51,982 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:16:51,983 - ERROR - Environment setup failed for resume_file_management: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:16:51,983 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-04 19:16:51,983 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-04 19:16:51,983 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:16:53,089 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:16:54,986 - INFO - Testing Python executable...
+2025-08-04 19:16:55,134 - INFO - Python version: Python 3.11.5
+2025-08-04 19:16:55,135 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:16:56,112 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-04 19:16:56,112 - INFO - Found Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:16:56,123 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:16:56,124 - INFO - Attempt 1/3 - Running: generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-04 19:16:56,125 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:16:56,125 - ERROR - Environment setup failed for resume_review_and_contact_entry: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:19:41,190 - INFO - Setting up complete environment for bot: resume_file_management
+2025-08-04 19:19:41,190 - INFO - Creating virtual environment for resume_file_management
+2025-08-04 19:19:41,190 - INFO - Removing existing virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:19:42,302 - INFO - Creating virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:19:44,556 - INFO - Testing Python executable...
+2025-08-04 19:19:44,702 - INFO - Python version: Python 3.11.5
+2025-08-04 19:19:44,702 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:19:47,777 - INFO - Installing packages for resume_file_management
+2025-08-04 19:19:47,778 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-04 19:19:47,778 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-04 19:19:47,778 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_file_management/venv/bin/python', 'generated_bots/resume_file_management/venv/bin/python3', 'generated_bots/resume_file_management/venv/bin/python', 'generated_bots/resume_file_management/venv/bin/python3.11', 'generated_bots/resume_file_management/venv/Scripts/python.exe', 'generated_bots/resume_file_management/venv/Scripts/python3.exe']
+2025-08-04 19:19:47,778 - INFO - Checking candidate: generated_bots/resume_file_management/venv/bin/python - Exists: True
+2025-08-04 19:19:47,778 - INFO - Found Python executable: generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:19:47,778 - INFO - Testing Python executable: generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:19:47,795 - INFO - Python test successful: Python 3.11.5
+2025-08-04 19:19:47,796 - INFO - Installing 6 packages: Pillow>=9.0.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:19:47,796 - INFO - Attempt 1/3 - Running: generated_bots/resume_file_management/venv/bin/python -m pip install -r generated_bots/resume_file_management/requirements.txt --timeout 300 --no-cache-dir
+2025-08-04 19:19:47,798 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:19:47,798 - ERROR - Environment setup failed for resume_file_management: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-04 19:19:47,798 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-04 19:19:47,798 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-04 19:19:47,798 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:19:48,910 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:19:50,797 - INFO - Testing Python executable...
+2025-08-04 19:19:50,939 - INFO - Python version: Python 3.11.5
+2025-08-04 19:19:50,940 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:19:53,917 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-04 19:19:53,918 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-04 19:19:53,918 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-04 19:19:53,918 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3', 'generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python3.exe']
+2025-08-04 19:19:53,918 - INFO - Checking candidate: generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-04 19:19:53,919 - INFO - Found Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:19:53,919 - INFO - Testing Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:19:53,937 - INFO - Python test successful: Python 3.11.5
+2025-08-04 19:19:53,937 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:19:53,937 - INFO - Attempt 1/3 - Running: generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-04 19:19:53,938 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:19:53,938 - ERROR - Environment setup failed for resume_review_and_contact_entry: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-04 19:21:30,756 - INFO - Setting up complete environment for bot: resume_file_management
+2025-08-04 19:21:30,756 - INFO - Creating virtual environment for resume_file_management
+2025-08-04 19:21:30,756 - INFO - Removing existing virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:21:31,868 - INFO - Creating virtual environment: generated_bots/resume_file_management/venv
+2025-08-04 19:21:34,025 - INFO - Testing Python executable...
+2025-08-04 19:21:34,168 - INFO - Python version: Python 3.11.5
+2025-08-04 19:21:34,169 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:21:37,405 - INFO - Installing packages for resume_file_management
+2025-08-04 19:21:37,406 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-04 19:21:37,407 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-04 19:21:37,407 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_file_management/venv/bin/python', 'generated_bots/resume_file_management/venv/bin/python3', 'generated_bots/resume_file_management/venv/bin/python', 'generated_bots/resume_file_management/venv/bin/python3.11', 'generated_bots/resume_file_management/venv/Scripts/python.exe', 'generated_bots/resume_file_management/venv/Scripts/python3.exe']
+2025-08-04 19:21:37,407 - INFO - Checking candidate: generated_bots/resume_file_management/venv/bin/python - Exists: True
+2025-08-04 19:21:37,408 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/venv/bin/python - Exists: True
+2025-08-04 19:21:37,408 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:21:37,408 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:21:37,408 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:21:37,424 - INFO - Python test successful: Python 3.11.5
+2025-08-04 19:21:37,426 - INFO - Installing 6 packages: Pillow>=9.0.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:21:37,426 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/requirements.txt --timeout 300 --no-cache-dir
+2025-08-04 19:21:37,426 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management
+2025-08-04 19:21:37,426 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/venv/bin/python
+2025-08-04 19:21:37,426 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_file_management/requirements.txt
+2025-08-04 19:21:59,002 - INFO - Successfully installed 6 packages on attempt 1
+2025-08-04 19:21:59,003 - INFO - Created activation script: generated_bots/resume_file_management/activate_and_run.sh
+2025-08-04 19:21:59,003 - INFO - Environment setup completed successfully for resume_file_management
+2025-08-04 19:21:59,003 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-04 19:21:59,003 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-04 19:21:59,003 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:22:00,102 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-04 19:22:02,009 - INFO - Testing Python executable...
+2025-08-04 19:22:02,154 - INFO - Python version: Python 3.11.5
+2025-08-04 19:22:02,154 - INFO - Upgrading pip in virtual environment
+2025-08-04 19:22:05,184 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-04 19:22:05,185 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-04 19:22:05,185 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-04 19:22:05,186 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3', 'generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python3.exe']
+2025-08-04 19:22:05,186 - INFO - Checking candidate: generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-04 19:22:05,186 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-04 19:22:05,186 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:22:05,186 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:22:05,186 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:22:05,202 - INFO - Python test successful: Python 3.11.5
+2025-08-04 19:22:05,203 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-04 19:22:05,203 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-04 19:22:05,203 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-04 19:22:05,203 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-04 19:22:05,203 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt
+2025-08-04 19:22:28,724 - INFO - Successfully installed 8 packages on attempt 1
+2025-08-04 19:22:28,725 - INFO - Created activation script: generated_bots/resume_review_and_contact_entry/activate_and_run.sh
+2025-08-04 19:22:28,725 - INFO - Environment setup completed successfully for resume_review_and_contact_entry
+2025-08-04 19:37:23,565 - INFO - Shutting down Bot Execution Engine...
+2025-08-04 19:37:23,566 - INFO - Bot Execution Engine shutdown complete
+2025-08-04 19:39:18,832 - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250804_193918_471d1248)
+2025-08-04 19:39:18,842 - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-04 19:39:18,842 - INFO - Working directory: generated_bots/resume_file_management
+2025-08-04 19:39:18,844 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:37:36,687 - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250827_163736_9052b0bf)
+2025-08-27 16:37:36,700 - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-27 16:37:36,701 - INFO - Working directory: generated_bots/resume_file_management
+2025-08-27 16:37:36,702 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:39:11,695 - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250827_163911_7fa23f22)
+2025-08-27 16:39:11,707 - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-27 16:39:11,707 - INFO - Working directory: generated_bots/resume_file_management
+2025-08-27 16:39:11,709 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:44:12,002 - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250827_164412_5565c9b6)
+2025-08-27 16:44:12,013 - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-27 16:44:12,014 - INFO - Working directory: generated_bots/resume_file_management
+2025-08-27 16:44:12,015 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:45:04,484 - INFO - Setting up complete environment for bot: resume_file_management
+2025-08-27 16:45:04,485 - INFO - Creating virtual environment for resume_file_management
+2025-08-27 16:45:04,485 - INFO - Removing existing virtual environment: generated_bots/resume_file_management/venv
+2025-08-27 16:45:04,600 - ERROR - Failed to create virtual environment: [Errno 66] Directory not empty: 'common'
+2025-08-27 16:45:04,600 - ERROR - Environment setup failed for resume_file_management: Virtual environment creation failed: Failed to create virtual environment: [Errno 66] Directory not empty: 'common'
+2025-08-27 16:45:04,600 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-27 16:45:04,600 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-27 16:45:04,600 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 16:45:07,051 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 16:45:09,243 - INFO - Testing Python executable...
+2025-08-27 16:45:09,409 - INFO - Python version: Python 3.11.5
+2025-08-27 16:45:09,409 - INFO - Upgrading pip in virtual environment
+2025-08-27 16:45:12,550 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-27 16:45:12,552 - INFO - Virtual environment contents: ['.DS_Store', 'bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-27 16:45:12,552 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-27 16:45:12,552 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3', 'generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python3.exe']
+2025-08-27 16:45:12,553 - INFO - Checking candidate: generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 16:45:12,553 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 16:45:12,553 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:45:12,553 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:45:12,553 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:45:12,588 - INFO - Python test successful: Python 3.11.5
+2025-08-27 16:45:12,589 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-27 16:45:12,590 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-27 16:45:12,590 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 16:45:12,590 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:45:12,590 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt
+2025-08-27 16:45:30,863 - INFO - Successfully installed 8 packages on attempt 1
+2025-08-27 16:45:30,865 - INFO - Created activation script: generated_bots/resume_review_and_contact_entry/activate_and_run.sh
+2025-08-27 16:45:30,865 - INFO - Environment setup completed successfully for resume_review_and_contact_entry
+2025-08-27 16:45:30,969 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 16:45:30,969 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 16:46:50,952 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 16:46:50,954 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 16:47:21,676 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_164721_00553b2c)
+2025-08-27 16:47:21,687 - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 16:47:21,688 - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 16:47:21,690 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 16:47:39,309 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-27 16:47:39,310 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-27 16:47:39,310 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 16:47:41,041 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 16:47:43,022 - INFO - Testing Python executable...
+2025-08-27 16:47:43,181 - INFO - Python version: Python 3.11.5
+2025-08-27 16:47:43,181 - INFO - Upgrading pip in virtual environment
+2025-08-27 16:47:46,138 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-27 16:47:46,138 - INFO - Virtual environment contents: ['.DS_Store', 'bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-27 16:47:46,138 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-27 16:47:46,139 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3', 'generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python3.exe']
+2025-08-27 16:47:46,139 - INFO - Checking candidate: generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 16:47:46,139 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 16:47:46,139 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:47:46,139 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:47:46,139 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:47:46,155 - INFO - Python test successful: Python 3.11.5
+2025-08-27 16:47:46,156 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-27 16:47:46,156 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-27 16:47:46,156 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 16:47:46,156 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 16:47:46,156 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt
+2025-08-27 16:48:04,014 - INFO - Successfully installed 8 packages on attempt 1
+2025-08-27 16:48:04,015 - INFO - Created activation script: generated_bots/resume_review_and_contact_entry/activate_and_run.sh
+2025-08-27 16:48:04,016 - INFO - Environment setup completed successfully for resume_review_and_contact_entry
+2025-08-27 16:48:07,454 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 16:48:07,455 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 16:48:17,845 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_164817_41b9a8cc)
+2025-08-27 16:48:17,854 - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 16:48:17,855 - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 16:48:17,856 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 17:03:51,008 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:03:51,011 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:04:19,552 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:04:19,553 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:04:27,766 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:04:27,768 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:04:32,375 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:04:32,375 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:05:02,511 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:05:02,513 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:05:18,224 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-27 17:05:18,225 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-27 17:05:18,225 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 17:05:18,271 - ERROR - Failed to create virtual environment: [Errno 66] Directory not empty: 'webdriver'
+2025-08-27 17:05:18,271 - ERROR - Environment setup failed for resume_review_and_contact_entry: Virtual environment creation failed: Failed to create virtual environment: [Errno 66] Directory not empty: 'webdriver'
+2025-08-27 17:06:56,461 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-27 17:06:56,461 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-27 17:06:56,461 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 17:06:56,987 - ERROR - Failed to create virtual environment: [Errno 66] Directory not empty: 'site-packages'
+2025-08-27 17:06:56,987 - ERROR - Environment setup failed for resume_review_and_contact_entry: Virtual environment creation failed: Failed to create virtual environment: [Errno 66] Directory not empty: 'site-packages'
+2025-08-27 17:11:28,270 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:11:28,273 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:24:39,065 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-27 17:24:39,066 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-27 17:24:39,066 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 17:24:40,073 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 17:24:42,191 - INFO - Testing Python executable...
+2025-08-27 17:24:42,346 - INFO - Python version: Python 3.11.5
+2025-08-27 17:24:42,346 - INFO - Upgrading pip in virtual environment
+2025-08-27 17:24:45,386 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-27 17:24:45,386 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-27 17:24:45,386 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-27 17:24:45,387 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3', 'generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python3.exe']
+2025-08-27 17:24:45,387 - INFO - Checking candidate: generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 17:24:45,387 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 17:24:45,387 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:24:45,387 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:24:45,387 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:24:45,408 - INFO - Python test successful: Python 3.11.5
+2025-08-27 17:24:45,409 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-27 17:24:45,409 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-27 17:24:45,409 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:24:45,409 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:24:45,409 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt
+2025-08-27 17:25:02,603 - INFO - Successfully installed 8 packages on attempt 1
+2025-08-27 17:25:02,612 - INFO - Created activation script: generated_bots/resume_review_and_contact_entry/activate_and_run.sh
+2025-08-27 17:25:02,620 - INFO - Environment setup completed successfully for resume_review_and_contact_entry
+2025-08-27 17:25:02,722 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:25:02,728 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:25:23,982 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:25:24,005 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_172524_de37ab9a)
+2025-08-27 17:25:24,016 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:25:24,035 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:25:24,035 - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:25:24,036 - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 17:25:24,037 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 17:26:00,927 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:26:00,940 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_172600_0d963111)
+2025-08-27 17:26:00,949 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:26:00,967 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:26:00,967 - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:26:00,968 - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 17:26:00,969 - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 17:31:15,172 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:31:15,174 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:31:25,995 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:31:25,996 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:31:28,748 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:31:28,749 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:32:03,491 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:32:03,504 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:32:03,508 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_173203_946527f2)
+2025-08-27 17:32:03,518 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:32:03,529 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:32:03,540 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:32:03,542 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:32:03,542 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:32:03,542 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:32:03,542 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:32:03,543 - INFO - Bot process started: PID 9469
+2025-08-27 17:32:03,592 - WARNING - [resume_review_and_contact_entry_20250827_173203_946527f2] STDERR: Traceback (most recent call last):
+2025-08-27 17:32:03,697 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_173203_946527f2
+2025-08-27 17:34:36,677 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:34:36,687 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:34:36,691 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_173436_45261cd6)
+2025-08-27 17:34:36,701 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:34:36,710 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:34:36,719 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:34:36,720 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:34:36,720 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:34:36,721 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:34:36,721 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:34:36,722 - INFO - Bot process started: PID 10965
+2025-08-27 17:34:36,784 - WARNING - [resume_review_and_contact_entry_20250827_173436_45261cd6] STDERR: Traceback (most recent call last):
+2025-08-27 17:34:36,890 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_173436_45261cd6
+2025-08-27 17:38:51,855 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:38:51,858 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:07,164 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:39:07,166 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:26,934 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:39:26,934 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:35,913 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:39:35,913 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:57,108 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:39:57,118 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:39:57,123 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_173957_0db37e6e)
+2025-08-27 17:39:57,132 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:39:57,142 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:39:57,151 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:39:57,152 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:39:57,152 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:39:57,152 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:39:57,152 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:39:57,154 - INFO - Bot process started: PID 13876
+2025-08-27 17:39:57,203 - WARNING - [resume_review_and_contact_entry_20250827_173957_0db37e6e] STDERR: Traceback (most recent call last):
+2025-08-27 17:39:57,308 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_173957_0db37e6e
+2025-08-27 17:46:19,958 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:46:19,959 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:46:34,088 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:46:34,098 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:46:34,102 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_174634_dae98d5e)
+2025-08-27 17:46:34,111 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:46:34,119 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:46:34,128 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:46:34,129 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:46:34,129 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:46:34,129 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:46:34,129 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:46:34,131 - INFO - Bot process started: PID 17595
+2025-08-27 17:46:34,180 - WARNING - [resume_review_and_contact_entry_20250827_174634_dae98d5e] STDERR: Traceback (most recent call last):
+2025-08-27 17:46:34,281 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_174634_dae98d5e
+2025-08-27 17:49:24,067 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:49:24,068 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:49:38,090 - INFO - Setting up complete environment for bot: resume_review_and_contact_entry
+2025-08-27 17:49:38,093 - INFO - Creating virtual environment for resume_review_and_contact_entry
+2025-08-27 17:49:38,093 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 17:49:40,302 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_entry/venv
+2025-08-27 17:49:42,359 - INFO - Testing Python executable...
+2025-08-27 17:49:42,499 - INFO - Python version: Python 3.11.5
+2025-08-27 17:49:42,500 - INFO - Upgrading pip in virtual environment
+2025-08-27 17:49:45,494 - INFO - Installing packages for resume_review_and_contact_entry
+2025-08-27 17:49:45,495 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-27 17:49:45,495 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-27 17:49:45,496 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3', 'generated_bots/resume_review_and_contact_entry/venv/bin/python', 'generated_bots/resume_review_and_contact_entry/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_entry/venv/Scripts/python3.exe']
+2025-08-27 17:49:45,496 - INFO - Checking candidate: generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 17:49:45,496 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python - Exists: True
+2025-08-27 17:49:45,496 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:49:45,496 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:49:45,496 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:49:45,523 - INFO - Python test successful: Python 3.11.5
+2025-08-27 17:49:45,524 - INFO - Installing 13 packages: openpyxl>=3.0.9, python-docx>=0.8.11, PyPDF2>=3.0.0, retry>=0.9.2, Pillow>=9.0.0, pandas>=1.4.0, requests>=2.28.0, python-dotenv>=0.19.0, opencv-python>=4.5.0, pytesseract>=0.3.10, selenium>=4.0.0, pyautogui>=0.9.54, pywin32>=227; sys_platform == "win32"
+2025-08-27 17:49:45,524 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt --timeout 300 --no-cache-dir
+2025-08-27 17:49:45,524 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:49:45,524 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:49:45,524 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/requirements.txt
+2025-08-27 17:50:04,976 - INFO - Successfully installed 13 packages on attempt 1
+2025-08-27 17:50:04,977 - INFO - Created activation script: generated_bots/resume_review_and_contact_entry/activate_and_run.sh
+2025-08-27 17:50:04,977 - INFO - Environment setup completed successfully for resume_review_and_contact_entry
+2025-08-27 17:50:05,080 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:50:05,081 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:50:22,490 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:50:22,500 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:50:22,504 - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_175022_4934d88b)
+2025-08-27 17:50:22,514 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:50:22,523 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:50:22,533 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:50:22,534 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:50:22,535 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:50:22,535 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:50:22,535 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:50:22,536 - INFO - Bot process started: PID 19837
+2025-08-27 17:50:26,943 - INFO - [resume_review_and_contact_entry_20250827_175022_4934d88b] STDOUT: ✅ Automation completed: {'processed_count': 3, 'failed_count': 0, 'execution_time': 0.01592707633972168, 'platform': 'Darwin'}
+2025-08-27 17:50:26,944 - WARNING - [resume_review_and_contact_entry_20250827_175022_4934d88b] STDERR: 2025-08-27 17:50:24,496 - INFO - Running on Darwin 24.4.0
+2025-08-27 17:50:27,049 - INFO - Bot execution completed successfully: resume_review_and_contact_entry_20250827_175022_4934d88b
+2025-08-27 19:36:54,912 - INFO - Shutting down Bot Execution Engine...
+2025-08-27 19:36:54,913 - INFO - Bot Execution Engine shutdown complete
+2025-08-27 20:16:27,267 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:16:35,474 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:16:42,695 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:16:49,619 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:17:01,888 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:25:55,244 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:02,735 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:09,538 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:15,714 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:22,481 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:31,438 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:38,524 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:45,175 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:51,494 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:26:58,779 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:27:05,417 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:27:11,512 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:27:29,182 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:28:57,730 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:29:31,768 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-08-27 20:29:50,924 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-08-27 20:29:50,926 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-08-27 20:29:50,926 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-08-27 20:29:53,123 - INFO - Testing Python executable...
+2025-08-27 20:29:53,272 - INFO - Python version: Python 3.11.5
+2025-08-27 20:29:53,272 - INFO - Upgrading pip in virtual environment
+2025-08-27 20:29:56,385 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-08-27 20:29:56,385 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-27 20:29:56,386 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-27 20:29:56,386 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-08-27 20:29:56,386 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-08-27 20:29:56,386 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-08-27 20:29:56,386 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-27 20:29:56,386 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-27 20:29:56,387 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-27 20:29:56,414 - INFO - Python test successful: Python 3.11.5
+2025-08-27 20:29:56,415 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-27 20:29:56,416 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/requirements.txt --timeout 300 --no-cache-dir
+2025-08-27 20:29:56,416 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-08-27 20:29:56,416 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-27 20:29:56,416 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/requirements.txt
+2025-08-27 20:30:16,920 - INFO - Successfully installed 8 packages on attempt 1
+2025-08-27 20:30:16,921 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-08-27 20:30:16,922 - INFO - Environment setup completed successfully for resume_review_and_contact_info_extraction
+2025-08-27 20:30:16,922 - INFO - Setting up complete environment for bot: workflow_monitoring_status_check
+2025-08-27 20:30:16,922 - INFO - Creating virtual environment for workflow_monitoring_status_check
+2025-08-27 20:30:16,922 - INFO - Creating virtual environment: generated_bots/workflow_monitoring_status_check/venv
+2025-08-27 20:30:18,943 - INFO - Testing Python executable...
+2025-08-27 20:30:19,095 - INFO - Python version: Python 3.11.5
+2025-08-27 20:30:19,096 - INFO - Upgrading pip in virtual environment
+2025-08-27 20:30:22,205 - INFO - Installing packages for workflow_monitoring_status_check
+2025-08-27 20:30:22,206 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-08-27 20:30:22,206 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-08-27 20:30:22,206 - INFO - Searching for Python executable in candidates: ['generated_bots/workflow_monitoring_status_check/venv/bin/python', 'generated_bots/workflow_monitoring_status_check/venv/bin/python3', 'generated_bots/workflow_monitoring_status_check/venv/bin/python', 'generated_bots/workflow_monitoring_status_check/venv/bin/python3.11', 'generated_bots/workflow_monitoring_status_check/venv/Scripts/python.exe', 'generated_bots/workflow_monitoring_status_check/venv/Scripts/python3.exe']
+2025-08-27 20:30:22,206 - INFO - Checking candidate: generated_bots/workflow_monitoring_status_check/venv/bin/python - Exists: True
+2025-08-27 20:30:22,207 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/venv/bin/python - Exists: True
+2025-08-27 20:30:22,207 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/venv/bin/python
+2025-08-27 20:30:22,207 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/venv/bin/python
+2025-08-27 20:30:22,207 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/venv/bin/python
+2025-08-27 20:30:22,234 - INFO - Python test successful: Python 3.11.5
+2025-08-27 20:30:22,235 - INFO - Installing 6 packages: Pillow>=9.0.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-08-27 20:30:22,235 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/requirements.txt --timeout 300 --no-cache-dir
+2025-08-27 20:30:22,236 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check
+2025-08-27 20:30:22,236 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/venv/bin/python
+2025-08-27 20:30:22,236 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/workflow_monitoring_status_check/requirements.txt
+2025-08-27 20:30:34,513 - INFO - Successfully installed 6 packages on attempt 1
+2025-08-27 20:30:34,513 - INFO - Created activation script: generated_bots/workflow_monitoring_status_check/activate_and_run.sh
+2025-08-27 20:30:34,514 - INFO - Environment setup completed successfully for workflow_monitoring_status_check

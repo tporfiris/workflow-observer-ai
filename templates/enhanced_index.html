@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Observer AI - Enhanced Screenshot Review</title>
+    <style>
+        /* Enhanced styling with VLM analysis integration */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        .stats-bar {
+            background: white;
+            padding: 1.5rem;
+            margin: 2rem auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 0.5rem;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #667eea;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.25rem;
+        }
+        
+        .vlm-stats {
+            background: #f8f9fa;
+            border-left: 4px solid #28a745;
+        }
+        
+        .controls {
+            background: white;
+            padding: 1rem;
+            margin: 1rem auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .analysis-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-1px);
+        }
+        
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn-success {
+            background: #28a745;
+        }
+        
+        .btn-success:hover {
+            background: #218838;
+        }
+        
+        .btn-warning {
+            background: #ffc107;
+            color: #212529;
+        }
+        
+        .btn-warning:hover {
+            background: #e0a800;
+        }
+        
+        .pagination {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem auto;
+        }
+        
+        .screenshot-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+        
+        .screenshot-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        
+        .screenshot-card.analyzed {
+            border-color: #28a745;
+        }
+        
+        .screenshot-card.annotated {
+            border-color: #007bff;
+        }
+        
+        .screenshot-card.both {
+            border: 2px solid;
+            border-image: linear-gradient(45deg, #28a745 50%, #007bff 50%) 1;
+        }
+        
+        .screenshot-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .screenshot-info {
+            padding: 1rem;
+        }
+        
+        .screenshot-time {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .screenshot-meta {
+            font-size: 0.85rem;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .vlm-analysis {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin: 0.5rem 0;
+            border-left: 3px solid #28a745;
+        }
+        
+        .vlm-analysis h4 {
+            font-size: 0.9rem;
+            color: #28a745;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+        
+        .vlm-field {
+            font-size: 0.8rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .vlm-label {
+            font-weight: 600;
+            color: #555;
+        }
+        
+        .vlm-value {
+            color: #333;
+        }
+        
+        .automation-score {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-left: 0.5rem;
+        }
+        
+        .automation-1, .automation-2 {
+            background: #dc3545;
+            color: white;
+        }
+        
+        .automation-3 {
+            background: #ffc107;
+            color: #212529;
+        }
+        
+        .automation-4, .automation-5 {
+            background: #28a745;
+            color: white;
+        }
+        
+        .badges {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+        }
+        
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 12px;
+            display: inline-block;
+        }
+        
+        .badge-annotation {
+            background: #007bff;
+            color: white;
+        }
+        
+        .badge-analysis {
+            background: #28a745;
+            color: white;
+        }
+        
+        .view-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        .view-link:hover {
+            color: #5a6fd8;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: white;
+            border-radius: 12px;
+            margin: 2rem auto;
+        }
+        
+        .empty-state h2 {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .analysis-status {
+            background: #e3f2fd;
+            border: 1px solid #2196f3;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem auto;
+            text-align: center;
+        }
+        
+        .loading {
+            display: none;
+            color: #2196f3;
+        }
+        
+        .loading.show {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .analysis-controls {
+                justify-content: center;
+            }
+            
+            .screenshot-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>🔍 Enhanced Screenshot Review Dashboard</h1>
+            <p>Analyze captured workflows with AI-powered insights</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Enhanced Statistics with VLM Data -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.total_screenshots }}</span>
+                <div class="stat-label">Total Screenshots</div>
+            </div>
+            
+            {% if stats.analyzed_screenshots is defined %}
+            <div class="stat-item vlm-stats">
+                <span class="stat-value">{{ stats.analyzed_screenshots }}</span>
+                <div class="stat-label">AI Analyzed</div>
+            </div>
+            <div class="stat-item vlm-stats">
+                <span class="stat-value">{{ stats.analysis_coverage }}%</span>
+                <div class="stat-label">Analysis Coverage</div>
+            </div>
+            {% endif %}
+            
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.annotated_screenshots }}</span>
+                <div class="stat-label">Annotated</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.total_size_mb }}MB</span>
+                <div class="stat-label">Total Size</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.timespan }}</span>
+                <div class="stat-label">Time Span</div>
+            </div>
+            
+            {% if stats.avg_automation_potential is defined and stats.avg_automation_potential > 0 %}
+            <div class="stat-item vlm-stats">
+                <span class="stat-value">{{ stats.avg_automation_potential }}/5</span>
+                <div class="stat-label">Avg Automation Potential</div>
+            </div>
+            <div class="stat-item vlm-stats">
+                <span class="stat-value">{{ stats.high_automation_candidates }}</span>
+                <div class="stat-label">High Auto Candidates</div>
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- Analysis Controls -->
+        {% if vlm_available %}
+        <div class="analysis-status" id="analysisStatus" style="display: none;">
+            <div class="loading">🤖 Analyzing screenshots with Claude Vision...</div>
+            <div id="analysisResult"></div>
+        </div>
+        {% endif %}
+        
+        <!-- Navigation and Analysis Controls -->
+        <div class="controls">
+            <div class="pagination">
+                {% if pagination.has_previous %}
+                    <a href="/?page={{ pagination.previous_start // per_page }}&per_page={{ per_page }}" class="btn">← Previous</a>
+                {% else %}
+                    <button class="btn" disabled>← Previous</button>
+                {% endif %}
+                
+                <span style="margin: 0 1rem;">
+                    Showing {{ pagination.start_index + 1 }}-{{ pagination.end_index }} of {{ pagination.total }}
+                </span>
+                
+                {% if pagination.has_next %}
+                    <a href="/?page={{ pagination.next_start // per_page }}&per_page={{ per_page }}" class="btn">Next →</a>
+                {% else %}
+                    <button class="btn" disabled>Next →</button>
+                {% endif %}
+            </div>
+            
+            {% if vlm_available %}
+            <div class="analysis-controls">
+                <button onclick="analyzeVisible()" class="btn btn-success">
+                    🤖 Analyze Visible Screenshots
+                </button>
+                <button onclick="analyzeBatch(10)" class="btn btn-warning">
+                    ⚡ Quick Batch (10)
+                </button>
+                <select onchange="changePerPage(this.value)" style="padding: 0.5rem; border-radius: 4px; border: 1px solid #ddd;">
+                    <option value="20" {% if per_page == 20 %}selected{% endif %}>20 per page</option>
+                    <option value="50" {% if per_page == 50 %}selected{% endif %}>50 per page</option>
+                    <option value="100" {% if per_page == 100 %}selected{% endif %}>100 per page</option>
+                </select>
+            </div>
+            {% else %}
+            <div style="color: #666; font-style: italic;">
+                🔑 Set ANTHROPIC_API_KEY to enable AI analysis
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- Top Applications Summary (if VLM data available) -->
+        {% if stats.top_applications is defined and stats.top_applications %}
+        <div style="background: white; padding: 1rem; margin: 1rem auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+            <h3 style="margin-bottom: 1rem; color: #2c3e50;">🏆 Most Common Applications</h3>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                {% for app, count in stats.top_applications %}
+                <div style="background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 6px; border-left: 3px solid #28a745;">
+                    <strong>{{ app }}</strong>
+                    <span style="color: #666; margin-left: 0.5rem;">{{ count }} screenshots</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        
+        <!-- Screenshots Grid -->
+        {% if screenshots %}
+            <div class="screenshot-grid">
+                {% for screenshot in screenshots %}
+                    <div class="screenshot-card {% if screenshot.has_vlm_analysis and screenshot.has_annotation %}both{% elif screenshot.has_vlm_analysis %}analyzed{% elif screenshot.has_annotation %}annotated{% endif %}">
+                        <img src="{{ screenshot.web_path }}" 
+                             alt="Screenshot from {{ screenshot.timestamp_str }}"
+                             class="screenshot-image"
+                             loading="lazy">
+                        
+                        <div class="screenshot-info">
+                            <div class="screenshot-time">{{ screenshot.timestamp_str }}</div>
+                            
+                            <div class="screenshot-meta">
+                                <span>{{ screenshot.metadata.dimensions }}</span>
+                                <span>{{ screenshot.metadata.file_size_mb }}MB</span>
+                            </div>
+                            
+                            <!-- VLM Analysis Display -->
+                            {% if screenshot.has_vlm_analysis %}
+                                <div class="vlm-analysis">
+                                    <h4>🤖 AI Analysis</h4>
+                                    <div class="vlm-field">
+                                        <span class="vlm-label">App:</span>
+                                        <span class="vlm-value">{{ screenshot.vlm_analysis.application }}</span>
+                                    </div>
+                                    <div class="vlm-field">
+                                        <span class="vlm-label">Type:</span>
+                                        <span class="vlm-value">{{ screenshot.vlm_analysis.screen_type }}</span>
+                                        {% if screenshot.vlm_analysis.automation_potential is defined %}
+                                        <span class="automation-score automation-{{ screenshot.vlm_analysis.automation_potential }}">
+                                            {{ screenshot.vlm_analysis.automation_potential }}/5
+                                        </span>
+                                        {% endif %}
+                                    </div>
+                                    <div class="vlm-field" style="font-style: italic; color: #555; margin-top: 0.5rem;">
+                                        "{{ screenshot.vlm_analysis.task_description }}"
+                                    </div>
+                                </div>
+                            {% else %}
+                                {% if vlm_available %}
+                                <div style="text-align: center; padding: 0.5rem; color: #666;">
+                                    <button onclick="analyzeSingle('{{ screenshot.filename }}')" class="btn btn-success" style="font-size: 0.8rem; padding: 0.25rem 0.5rem;">
+                                        🤖 Analyze with AI
+                                    </button>
+                                </div>
+                                {% endif %}
+                            {% endif %}
+                            
+                            <!-- Badges and Annotations -->
+                            <div class="badges">
+                                {% if screenshot.has_vlm_analysis %}
+                                    <span class="badge badge-analysis">🤖 AI Analyzed</span>
+                                {% endif %}
+                                
+                                {% if screenshot.has_annotation %}
+                                    <span class="badge badge-annotation">📝 {{ screenshot.annotation.type or 'Annotated' }}</span>
+                                {% endif %}
+                            </div>
+                            
+                            <a href="/screenshot/{{ loop.index0 + pagination.start_index }}" class="view-link">
+                                View Details & Analysis →
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="empty-state">
+                <h2>No Screenshots Found</h2>
+                <p>Start the capture agent to begin collecting workflow data.</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #999;">
+                    Run: <code>python capture_agent.py</code>
+                </p>
+            </div>
+        {% endif %}
+    </div>
+    
+    <script>
+        // JavaScript for enhanced functionality with VLM integration
+        
+        function changePerPage(newPerPage) {
+            const url = new URL(window.location);
+            url.searchParams.set('per_page', newPerPage);
+            url.searchParams.set('page', '0');
+            window.location.href = url.toString();
+        }
+        
+        function showAnalysisStatus(message, isLoading = false) {
+            const status = document.getElementById('analysisStatus');
+            const loading = status.querySelector('.loading');
+            const result = document.getElementById('analysisResult');
+            
+            status.style.display = 'block';
+            
+            if (isLoading) {
+                loading.classList.add('show');
+                result.innerHTML = '';
+            } else {
+                loading.classList.remove('show');
+                result.innerHTML = message;
+            }
+        }
+        
+        function hideAnalysisStatus() {
+            document.getElementById('analysisStatus').style.display = 'none';
+        }
+        
+        async function analyzeSingle(filename) {
+            const button = event.target;
+            const originalText = button.innerHTML;
+            
+            button.innerHTML = '⏳ Analyzing...';
+            button.disabled = true;
+            
+            try {
+                const response = await fetch(`/analyze/${filename}`, {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    if (result.success) {
+                        // Reload the page to show the new analysis
+                        window.location.reload();
+                    } else {
+                        alert('Analysis failed. Please try again.');
+                    }
+                } else {
+                    alert('Analysis request failed. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Network error. Please try again.');
+            } finally {
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }
+        }
+        
+        async function analyzeVisible() {
+            showAnalysisStatus('', true);
+            
+            try {
+                const response = await fetch('/analyze/batch', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        max_screenshots: {{ pagination.count }}
+                    })
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    showAnalysisStatus(`✅ ${result.message}`);
+                    
+                    // Reload page after 2 seconds to show results
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 2000);
+                } else {
+                    showAnalysisStatus('❌ Analysis failed. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showAnalysisStatus('❌ Network error. Please try again.');
+            }
+        }
+        
+        async function analyzeBatch(maxCount) {
+            const estimatedCost = maxCount * 0.015;
+            if (!confirm(`Analyze up to ${maxCount} screenshots? Estimated cost: ${estimatedCost.toFixed(2)}`)) {
+                return;
+            }
+            
+            showAnalysisStatus('', true);
+            
+            try {
+                const response = await fetch(`/analyze/batch?max_screenshots=${maxCount}`, {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    showAnalysisStatus(`✅ ${result.message}`);
+                    
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 2000);
+                } else {
+                    showAnalysisStatus('❌ Batch analysis failed. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showAnalysisStatus('❌ Network error. Please try again.');
+            }
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
+                return;
+            }
+            
+            if (e.key === 'ArrowLeft' && {{ 'true' if pagination.has_previous else 'false' }}) {
+                window.location.href = '/?page={{ pagination.previous_start // per_page }}&per_page={{ per_page }}';
+            } else if (e.key === 'ArrowRight' && {{ 'true' if pagination.has_next else 'false' }}) {
+                window.location.href = '/?page={{ pagination.next_start // per_page }}&per_page={{ per_page }}';
+            }
+        });
+        
+        // Auto-hide analysis status after 5 seconds
+        setTimeout(() => {
+            const status = document.getElementById('analysisStatus');
+            if (status && !status.querySelector('.loading').classList.contains('show')) {
+                hideAnalysisStatus();
+            }
+        }, 5000);
+    </script>
+</body>
+</html>

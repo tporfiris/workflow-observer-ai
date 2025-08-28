@@ -1,0 +1,148 @@
+2025-08-04 19:37:23,565 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-04 19:37:23,566 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-04 19:39:18,832 - bot_executor - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250804_193918_471d1248)
+2025-08-04 19:39:18,842 - bot_executor - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-04 19:39:18,842 - bot_executor - INFO - Working directory: generated_bots/resume_file_management
+2025-08-04 19:39:18,844 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:37:36,687 - bot_executor - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250827_163736_9052b0bf)
+2025-08-27 16:37:36,700 - bot_executor - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-27 16:37:36,701 - bot_executor - INFO - Working directory: generated_bots/resume_file_management
+2025-08-27 16:37:36,702 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:39:11,695 - bot_executor - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250827_163911_7fa23f22)
+2025-08-27 16:39:11,707 - bot_executor - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-27 16:39:11,707 - bot_executor - INFO - Working directory: generated_bots/resume_file_management
+2025-08-27 16:39:11,709 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:44:12,002 - bot_executor - INFO - Starting bot execution: resume_file_management (execution_id: resume_file_management_20250827_164412_5565c9b6)
+2025-08-27 16:44:12,013 - bot_executor - INFO - Executing command: generated_bots/resume_file_management/venv/bin/python generated_bots/resume_file_management/resume_file_management.py
+2025-08-27 16:44:12,014 - bot_executor - INFO - Working directory: generated_bots/resume_file_management
+2025-08-27 16:44:12,015 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_file_management/venv/bin/python'
+2025-08-27 16:45:30,969 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 16:45:30,969 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 16:46:50,952 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 16:46:50,954 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 16:47:21,676 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_164721_00553b2c)
+2025-08-27 16:47:21,687 - bot_executor - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 16:47:21,688 - bot_executor - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 16:47:21,690 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 16:48:07,454 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 16:48:07,455 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 16:48:17,845 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_164817_41b9a8cc)
+2025-08-27 16:48:17,854 - bot_executor - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 16:48:17,855 - bot_executor - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 16:48:17,856 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 17:03:51,008 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:03:51,011 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:04:19,552 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:04:19,553 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:04:27,766 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:04:27,768 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:04:32,375 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:04:32,375 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:05:02,511 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:05:02,513 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:11:28,270 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:11:28,273 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:25:02,722 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:25:02,728 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:25:23,982 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:25:24,005 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_172524_de37ab9a)
+2025-08-27 17:25:24,016 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:25:24,035 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:25:24,035 - bot_executor - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:25:24,036 - bot_executor - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 17:25:24,037 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 17:26:00,927 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:26:00,940 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_172600_0d963111)
+2025-08-27 17:26:00,949 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:26:00,967 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:26:00,967 - bot_executor - INFO - Executing command: generated_bots/resume_review_and_contact_entry/venv/bin/python generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:26:00,968 - bot_executor - INFO - Working directory: generated_bots/resume_review_and_contact_entry
+2025-08-27 17:26:00,969 - bot_executor - ERROR - Bot execution error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_entry/venv/bin/python'
+2025-08-27 17:31:15,172 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:31:15,174 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:31:25,995 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:31:25,996 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:31:28,748 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:31:28,749 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:32:03,491 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:32:03,504 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:32:03,508 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_173203_946527f2)
+2025-08-27 17:32:03,518 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:32:03,529 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:32:03,540 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:32:03,542 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:32:03,542 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:32:03,542 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:32:03,542 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:32:03,543 - bot_executor - INFO - Bot process started: PID 9469
+2025-08-27 17:32:03,592 - bot_executor - WARNING - [resume_review_and_contact_entry_20250827_173203_946527f2] STDERR: Traceback (most recent call last):
+2025-08-27 17:32:03,697 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_173203_946527f2
+2025-08-27 17:34:36,677 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:34:36,687 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:34:36,691 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_173436_45261cd6)
+2025-08-27 17:34:36,701 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:34:36,710 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:34:36,719 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:34:36,720 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:34:36,720 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:34:36,721 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:34:36,721 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:34:36,722 - bot_executor - INFO - Bot process started: PID 10965
+2025-08-27 17:34:36,784 - bot_executor - WARNING - [resume_review_and_contact_entry_20250827_173436_45261cd6] STDERR: Traceback (most recent call last):
+2025-08-27 17:34:36,890 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_173436_45261cd6
+2025-08-27 17:38:51,855 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:38:51,858 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:07,164 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:39:07,166 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:26,934 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:39:26,934 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:35,913 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:39:35,913 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:39:57,108 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:39:57,118 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:39:57,123 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_173957_0db37e6e)
+2025-08-27 17:39:57,132 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:39:57,142 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:39:57,151 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:39:57,152 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:39:57,152 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:39:57,152 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:39:57,152 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:39:57,154 - bot_executor - INFO - Bot process started: PID 13876
+2025-08-27 17:39:57,203 - bot_executor - WARNING - [resume_review_and_contact_entry_20250827_173957_0db37e6e] STDERR: Traceback (most recent call last):
+2025-08-27 17:39:57,308 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_173957_0db37e6e
+2025-08-27 17:46:19,958 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:46:19,959 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:46:34,088 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:46:34,098 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:46:34,102 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_174634_dae98d5e)
+2025-08-27 17:46:34,111 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:46:34,119 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:46:34,128 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:46:34,129 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:46:34,129 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:46:34,129 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:46:34,129 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:46:34,131 - bot_executor - INFO - Bot process started: PID 17595
+2025-08-27 17:46:34,180 - bot_executor - WARNING - [resume_review_and_contact_entry_20250827_174634_dae98d5e] STDERR: Traceback (most recent call last):
+2025-08-27 17:46:34,281 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_entry_20250827_174634_dae98d5e
+2025-08-27 17:49:24,067 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:49:24,068 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:50:05,080 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 17:50:05,081 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-27 17:50:22,490 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:50:22,500 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:50:22,504 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_entry (execution_id: resume_review_and_contact_entry_20250827_175022_4934d88b)
+2025-08-27 17:50:22,514 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:50:22,523 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python -> Python 3.11.5
+2025-08-27 17:50:22,533 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_entry/venv/bin/python
+2025-08-27 17:50:22,534 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py
+2025-08-27 17:50:22,535 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry
+2025-08-27 17:50:22,535 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/venv/bin/python (exists: True)
+2025-08-27 17:50:22,535 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_entry/resume_review_and_contact_entry.py (exists: True)
+2025-08-27 17:50:22,536 - bot_executor - INFO - Bot process started: PID 19837
+2025-08-27 17:50:26,943 - bot_executor - INFO - [resume_review_and_contact_entry_20250827_175022_4934d88b] STDOUT: ✅ Automation completed: {'processed_count': 3, 'failed_count': 0, 'execution_time': 0.01592707633972168, 'platform': 'Darwin'}
+2025-08-27 17:50:26,944 - bot_executor - WARNING - [resume_review_and_contact_entry_20250827_175022_4934d88b] STDERR: 2025-08-27 17:50:24,496 - INFO - Running on Darwin 24.4.0
+2025-08-27 17:50:27,049 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_entry_20250827_175022_4934d88b
+2025-08-27 19:36:54,912 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-08-27 19:36:54,913 - bot_executor - INFO - Bot Execution Engine shutdown complete
