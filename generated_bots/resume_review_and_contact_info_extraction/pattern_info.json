@@ -7,7 +7,7 @@
     "Microsoft Excel"
   ],
   "workflow_steps": [
-    "Step 1: Open candidate resume in Word",
+    "Step 1: Open candidate resume in Word docx file",
     "Step 2: Review resume content",
     "Step 3: Switch to Excel contact spreadsheet",
     "Step 4: Enter candidate contact information from resume into spreadsheet"

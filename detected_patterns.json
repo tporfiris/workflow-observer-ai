@@ -8,7 +8,7 @@
       "Microsoft Excel"
     ],
     "workflow_steps": [
-      "Step 1: Open candidate resume in Word",
+      "Step 1: Open candidate resume in Word docx file",
       "Step 2: Review resume content",
       "Step 3: Switch to Excel contact spreadsheet",
       "Step 4: Enter candidate contact information from resume into spreadsheet"
@@ -39,37 +39,6 @@
           "View resume content",
           "Switch to contact spreadsheet",
           "Enter contact information"
-        ]
-      }
-    ]
-  },
-  {
-    "pattern_name": "Workflow Monitoring Status Check",
-    "pattern_type": "system_monitoring",
-    "frequency": "3 times in dataset",
-    "applications_involved": [
-      "Chrome - Workflow Observer AI Dashboard"
-    ],
-    "workflow_steps": [
-      "Step 1: Access monitoring dashboard",
-      "Step 2: Check system status",
-      "Step 3: View monitoring configuration",
-      "Step 4: Verify capture settings"
-    ],
-    "automation_potential": 6,
-    "automation_reasoning": "Status checking could be automated with automated alerts and notifications rather than manual dashboard checks",
-    "business_value": "Proactive monitoring and issue detection",
-    "implementation_approach": "Setup automated alerts and notifications based on monitoring status",
-    "time_savings_estimate": "1-2 minutes per check",
-    "sample_occurrences": [
-      {
-        "start_time": "2025-08-27T20:26:45",
-        "end_time": "2025-08-27T20:26:58",
-        "duration_minutes": 1,
-        "activities": [
-          "View dashboard",
-          "Check monitoring status",
-          "Review configuration"
         ]
       }
     ]

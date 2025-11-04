@@ -499,3 +499,781 @@
 2025-08-27 20:30:34,513 - INFO - Successfully installed 6 packages on attempt 1
 2025-08-27 20:30:34,513 - INFO - Created activation script: generated_bots/workflow_monitoring_status_check/activate_and_run.sh
 2025-08-27 20:30:34,514 - INFO - Environment setup completed successfully for workflow_monitoring_status_check
+2025-08-28 18:28:15,434 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-28 18:28:15,443 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-08-28 18:28:15,452 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250828_182815_2343eb43)
+2025-08-28 18:28:15,461 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-28 18:28:15,469 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-08-28 18:28:15,478 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-28 18:28:15,479 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-08-28 18:28:15,479 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-08-28 18:28:15,479 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-08-28 18:28:15,479 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-08-28 18:28:15,480 - INFO - Bot process started: PID 3120
+2025-08-28 18:28:15,532 - WARNING - [resume_review_and_contact_info_extraction_20250828_182815_2343eb43] STDERR: Traceback (most recent call last):
+2025-08-28 18:28:15,637 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250828_182815_2343eb43
+2025-09-14 17:51:08,938 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:51:08,941 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:53:15,659 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:53:15,671 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:53:15,677 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_175315_e726872c)
+2025-09-14 17:53:15,716 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:53:15,728 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:53:15,737 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:53:15,738 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 17:53:15,738 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:53:15,738 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 17:53:15,738 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 17:53:15,739 - INFO - Bot process started: PID 42714
+2025-09-14 17:53:17,416 - WARNING - [resume_review_and_contact_info_extraction_20250914_175315_e726872c] STDERR: Traceback (most recent call last):
+2025-09-14 17:53:17,521 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_175315_e726872c
+2025-09-14 17:58:18,128 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:58:18,129 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:58:37,584 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:58:37,596 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:58:37,601 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_175837_f75843a7)
+2025-09-14 17:58:37,611 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:58:37,620 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:58:37,629 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:58:37,630 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 17:58:37,630 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:58:37,630 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 17:58:37,630 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 17:58:37,632 - INFO - Bot process started: PID 45675
+2025-09-14 17:58:38,182 - WARNING - [resume_review_and_contact_info_extraction_20250914_175837_f75843a7] STDERR: Traceback (most recent call last):
+2025-09-14 17:58:38,288 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_175837_f75843a7
+2025-09-14 17:58:56,057 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:58:56,058 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:59:06,486 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 17:59:06,487 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 17:59:06,487 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 17:59:08,684 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 17:59:10,846 - INFO - Testing Python executable...
+2025-09-14 17:59:11,010 - INFO - Python version: Python 3.11.5
+2025-09-14 17:59:11,011 - INFO - Upgrading pip in virtual environment
+2025-09-14 17:59:14,007 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 17:59:14,007 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-14 17:59:14,008 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-14 17:59:14,008 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-14 17:59:14,008 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 17:59:14,008 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 17:59:14,009 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:14,009 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:14,009 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:14,034 - INFO - Python test successful: Python 3.11.5
+2025-09-14 17:59:14,034 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-09-14 17:59:14,035 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/requirements.txt --timeout 300 --no-cache-dir
+2025-09-14 17:59:14,035 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:59:14,035 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:14,035 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/requirements.txt
+2025-09-14 17:59:31,324 - INFO - Successfully installed 8 packages on attempt 1
+2025-09-14 17:59:31,325 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-14 17:59:31,325 - INFO - Environment setup completed successfully for resume_review_and_contact_info_extraction
+2025-09-14 17:59:31,429 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:59:31,430 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:59:46,970 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:46,986 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:59:46,991 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_175946_24dcab18)
+2025-09-14 17:59:47,003 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:47,014 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:59:47,024 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:47,025 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 17:59:47,025 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:59:47,026 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 17:59:47,026 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 17:59:47,027 - INFO - Bot process started: PID 46384
+2025-09-14 17:59:47,058 - WARNING - [resume_review_and_contact_info_extraction_20250914_175946_24dcab18] STDERR: Traceback (most recent call last):
+2025-09-14 17:59:47,163 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_175946_24dcab18
+2025-09-14 18:01:40,505 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:01:40,506 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:01:50,599 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:01:50,608 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:01:50,613 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_180150_711bace6)
+2025-09-14 18:01:50,621 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:01:50,630 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:01:50,639 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:01:50,640 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:01:50,640 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:01:50,641 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:01:50,641 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:01:50,642 - INFO - Bot process started: PID 47634
+2025-09-14 18:01:50,674 - WARNING - [resume_review_and_contact_info_extraction_20250914_180150_711bace6] STDERR: Traceback (most recent call last):
+2025-09-14 18:01:50,779 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_180150_711bace6
+2025-09-14 18:02:17,696 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:02:17,698 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:02:49,249 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:02:49,259 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:02:49,263 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_180249_52b7735b)
+2025-09-14 18:02:49,271 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:02:49,282 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:02:49,291 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:02:49,292 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:02:49,293 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:02:49,293 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:02:49,293 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:02:49,294 - INFO - Bot process started: PID 48210
+2025-09-14 18:02:57,950 - INFO - [resume_review_and_contact_info_extraction_20250914_180249_52b7735b] STDOUT: ✅ Automation completed: {'processed_files': 3, 'failed_files': 0, 'execution_time': 0.03234601020812988}
+2025-09-14 18:02:57,950 - WARNING - [resume_review_and_contact_info_extraction_20250914_180249_52b7735b] STDERR: 2025-09-14 18:02:57,164 - INFO - Processing /Users/teddyporfiris/Documents/resume-candidates/Samantha J - Resume.docx
+2025-09-14 18:02:58,055 - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250914_180249_52b7735b
+2025-09-14 18:03:20,237 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:03:20,247 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:03:20,251 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e)
+2025-09-14 18:03:20,268 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:03:20,312 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:03:20,329 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:03:20,330 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:03:20,330 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:03:20,330 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:03:20,330 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:03:20,332 - INFO - Bot process started: PID 48506
+2025-09-14 18:03:21,610 - INFO - [resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e] STDOUT: ✅ Automation completed: {'processed_files': 3, 'failed_files': 0, 'execution_time': 0.029927730560302734}
+2025-09-14 18:03:21,610 - WARNING - [resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e] STDERR: 2025-09-14 18:03:20,844 - INFO - Processing /Users/teddyporfiris/Documents/resume-candidates/Samantha J - Resume.docx
+2025-09-14 18:03:21,711 - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e
+2025-09-14 18:12:11,152 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:12:11,153 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:17:17,307 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 18:17:17,308 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 18:17:17,308 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 18:17:19,371 - INFO - Testing Python executable...
+2025-09-14 18:17:19,534 - INFO - Python version: Python 3.11.5
+2025-09-14 18:17:19,534 - INFO - Upgrading pip in virtual environment
+2025-09-14 18:17:22,548 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 18:17:22,549 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-14 18:17:22,549 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-14 18:17:22,550 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-14 18:17:22,550 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 18:17:22,551 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 18:17:22,551 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:22,551 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:22,551 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:22,579 - INFO - Python test successful: Python 3.11.5
+2025-09-14 18:17:22,579 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-09-14 18:17:22,580 - INFO - Attempt 1/3 - Running: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -m pip install -r /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/requirements.txt --timeout 300 --no-cache-dir
+2025-09-14 18:17:22,581 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:17:22,581 - INFO - Python executable path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:22,581 - INFO - Requirements file path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/requirements.txt
+2025-09-14 18:17:39,100 - INFO - Successfully installed 8 packages on attempt 1
+2025-09-14 18:17:39,101 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-14 18:17:39,102 - INFO - Environment setup completed successfully for resume_review_and_contact_info_extraction
+2025-09-14 18:17:39,204 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:17:39,205 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:17:46,356 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:46,367 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:17:46,372 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_181746_047f0e05)
+2025-09-14 18:17:46,381 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:46,390 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:17:46,407 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:46,422 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:17:46,423 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:17:46,423 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:17:46,423 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:17:46,425 - INFO - Bot process started: PID 56257
+2025-09-14 18:17:46,459 - WARNING - [resume_review_and_contact_info_extraction_20250914_181746_047f0e05] STDERR: Traceback (most recent call last):
+2025-09-14 18:17:46,564 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_181746_047f0e05
+2025-09-14 18:19:41,212 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:19:41,213 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:22:09,806 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 18:22:09,807 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 18:22:09,807 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 18:22:11,906 - INFO - Upgrading pip in virtual environment
+2025-09-14 18:22:13,032 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 18:22:13,032 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-09-14 18:22:13,032 - INFO - Running: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -m pip install -r generated_bots/resume_review_and_contact_info_extraction/requirements.txt --timeout 300
+2025-09-14 18:22:13,034 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python'
+2025-09-14 18:22:13,034 - ERROR - Environment setup failed for resume_review_and_contact_info_extraction: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python'
+2025-09-14 18:22:13,135 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:22:13,136 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:22:31,860 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:22:31,872 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:22:31,877 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_182231_355daaff)
+2025-09-14 18:22:31,888 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:22:31,898 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:22:31,907 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:22:31,908 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:22:31,909 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:22:31,909 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:22:31,909 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:22:31,910 - INFO - Bot process started: PID 58918
+2025-09-14 18:22:31,938 - WARNING - [resume_review_and_contact_info_extraction_20250914_182231_355daaff] STDERR: Traceback (most recent call last):
+2025-09-14 18:22:32,043 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_182231_355daaff
+2025-09-14 18:22:59,622 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 18:22:59,623 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 18:22:59,623 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 18:22:59,723 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 18:23:01,655 - INFO - Upgrading pip in virtual environment
+2025-09-14 18:23:02,726 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 18:23:02,727 - INFO - Installing 8 packages: Pillow>=9.0.0, openpyxl>=3.0.9, pandas>=1.4.0, pathlib>=1.0.1, pyautogui>=0.9.54, python-dotenv>=0.19.0, requests>=2.28.0, selenium>=4.0.0
+2025-09-14 18:23:02,727 - INFO - Running: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -m pip install -r generated_bots/resume_review_and_contact_info_extraction/requirements.txt --timeout 300
+2025-09-14 18:23:02,728 - ERROR - Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python'
+2025-09-14 18:23:02,728 - ERROR - Environment setup failed for resume_review_and_contact_info_extraction: Package installation failed: Package installation error: [Errno 2] No such file or directory: 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python'
+2025-09-14 18:23:02,830 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:23:02,830 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:23:31,563 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:23:31,564 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:23:39,091 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:23:39,093 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:26:50,774 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:26:50,777 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:26:59,796 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:26:59,796 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:27:48,957 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:27:48,959 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:40:51,479 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 19:40:51,480 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 19:40:51,480 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 19:40:53,867 - INFO - Testing Python executable...
+2025-09-14 19:40:54,022 - INFO - Python version: Python 3.11.5
+2025-09-14 19:40:54,022 - INFO - Upgrading pip in virtual environment
+2025-09-14 19:40:57,019 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 19:40:57,020 - INFO - Found 8 packages in requirements.txt
+2025-09-14 19:40:57,025 - INFO - Found 26 imports in resume_review_and_contact_info_extraction.py
+2025-09-14 19:40:57,025 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'MIMEMultipart' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'MIMEText' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'Any' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'traceback' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'pdf2image' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-14 19:40:57,025 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-14 19:40:57,026 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-14 19:40:57,026 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-14 19:40:57,026 - INFO - Unknown import 'convert_from_path' - assuming package name is same
+2025-09-14 19:40:57,026 - INFO - Analysis summary:
+2025-09-14 19:40:57,026 - INFO -   - Total imports found: 26
+2025-09-14 19:40:57,026 - INFO -   - Built-in modules: 10
+2025-09-14 19:40:57,026 - INFO -   - Packages to install: 22
+2025-09-14 19:40:57,026 - INFO -   - Packages: Any, Dict, List, MIMEMultipart, MIMEText, Optional, Path, Pillow, PyPDF2, convert_from_path, docx, load_workbook, openpyxl, pandas, pathlib, pdf2image, pyautogui, pytesseract, python-dotenv, requests, selenium, traceback
+2025-09-14 19:40:57,027 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-14 19:40:57,027 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-14 19:40:57,027 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-14 19:40:57,027 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 19:40:57,027 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 19:40:57,027 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:40:57,027 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:40:57,028 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:40:57,044 - INFO - Python test successful: Python 3.11.5
+2025-09-14 19:40:57,044 - INFO - Installing 22 packages: Any, Dict, List, MIMEMultipart, MIMEText, Optional, Path, Pillow, PyPDF2, convert_from_path, docx, load_workbook, openpyxl, pandas, pathlib, pdf2image, pyautogui, pytesseract, python-dotenv, requests, selenium, traceback
+2025-09-14 19:40:57,044 - INFO - Installing package: Any
+2025-09-14 19:41:06,739 - INFO - ✅ Successfully installed: Any
+2025-09-14 19:41:06,755 - INFO - Installing package: Dict
+2025-09-14 19:41:14,260 - INFO - ✅ Successfully installed: Dict
+2025-09-14 19:41:14,260 - INFO - Installing package: List
+2025-09-14 19:41:14,760 - WARNING - ❌ Failed to install: List - ERROR: Could not find a version that satisfies the requirement List (from versions: none)
+ERROR: No matching distribution found for List
+
+2025-09-14 19:41:14,761 - INFO - Installing package: MIMEMultipart
+2025-09-14 19:41:15,282 - WARNING - ❌ Failed to install: MIMEMultipart - ERROR: Could not find a version that satisfies the requirement MIMEMultipart (from versions: none)
+ERROR: No matching distribution found for MIMEMultipart
+
+2025-09-14 19:41:15,283 - INFO - Installing package: MIMEText
+2025-09-14 19:41:15,758 - WARNING - ❌ Failed to install: MIMEText - ERROR: Could not find a version that satisfies the requirement MIMEText (from versions: none)
+ERROR: No matching distribution found for MIMEText
+
+2025-09-14 19:41:15,758 - INFO - Installing package: Optional
+2025-09-14 19:41:17,190 - INFO - ✅ Successfully installed: Optional
+2025-09-14 19:41:17,190 - INFO - Installing package: Path
+2025-09-14 19:41:17,756 - INFO - ✅ Successfully installed: Path
+2025-09-14 19:41:17,756 - INFO - Installing package: Pillow
+2025-09-14 19:41:18,753 - INFO - ✅ Successfully installed: Pillow
+2025-09-14 19:41:18,753 - INFO - Installing package: PyPDF2
+2025-09-14 19:41:19,428 - INFO - ✅ Successfully installed: PyPDF2
+2025-09-14 19:41:19,428 - INFO - Installing package: convert_from_path
+2025-09-14 19:41:19,913 - WARNING - ❌ Failed to install: convert_from_path - ERROR: Could not find a version that satisfies the requirement convert_from_path (from versions: none)
+ERROR: No matching distribution found for convert_from_path
+
+2025-09-14 19:41:19,913 - INFO - Installing package: docx
+2025-09-14 19:41:21,872 - INFO - ✅ Successfully installed: docx
+2025-09-14 19:41:21,872 - INFO - Installing package: load_workbook
+2025-09-14 19:41:22,354 - WARNING - ❌ Failed to install: load_workbook - ERROR: Could not find a version that satisfies the requirement load_workbook (from versions: none)
+ERROR: No matching distribution found for load_workbook
+
+2025-09-14 19:41:22,354 - INFO - Installing package: openpyxl
+2025-09-14 19:41:23,123 - INFO - ✅ Successfully installed: openpyxl
+2025-09-14 19:41:23,123 - INFO - Installing package: pandas
+2025-09-14 19:41:28,487 - INFO - ✅ Successfully installed: pandas
+2025-09-14 19:41:28,488 - INFO - Installing package: pathlib
+2025-09-14 19:41:29,027 - INFO - ✅ Successfully installed: pathlib
+2025-09-14 19:41:29,027 - INFO - Installing package: pdf2image
+2025-09-14 19:41:29,577 - INFO - ✅ Successfully installed: pdf2image
+2025-09-14 19:41:29,577 - INFO - Installing package: pyautogui
+2025-09-14 19:41:38,737 - INFO - ✅ Successfully installed: pyautogui
+2025-09-14 19:41:38,738 - INFO - Installing package: pytesseract
+2025-09-14 19:41:39,292 - INFO - ✅ Successfully installed: pytesseract
+2025-09-14 19:41:39,292 - INFO - Installing package: python-dotenv
+2025-09-14 19:41:39,822 - INFO - ✅ Successfully installed: python-dotenv
+2025-09-14 19:41:39,822 - INFO - Installing package: requests
+2025-09-14 19:41:40,180 - INFO - ✅ Successfully installed: requests
+2025-09-14 19:41:40,180 - INFO - Installing package: selenium
+2025-09-14 19:41:42,979 - INFO - ✅ Successfully installed: selenium
+2025-09-14 19:41:42,982 - INFO - Installing package: traceback
+2025-09-14 19:41:43,477 - WARNING - ❌ Failed to install: traceback - ERROR: Could not find a version that satisfies the requirement traceback (from versions: none)
+ERROR: No matching distribution found for traceback
+
+2025-09-14 19:41:43,608 - WARNING - Partial success: 16 installed, 6 failed
+2025-09-14 19:41:43,609 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-14 19:41:43,610 - WARNING - Environment setup completed with some failed packages for resume_review_and_contact_info_extraction
+2025-09-14 19:41:43,714 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:41:43,714 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:42:51,405 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:42:51,415 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:42:51,420 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_194251_9b9bb44a)
+2025-09-14 19:42:51,429 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:42:51,438 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:42:51,447 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:42:51,448 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:42:51,448 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:42:51,449 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:42:51,449 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:42:51,450 - INFO - Bot process started: PID 3278
+2025-09-14 19:42:52,841 - WARNING - [resume_review_and_contact_info_extraction_20250914_194251_9b9bb44a] STDERR: Traceback (most recent call last):
+2025-09-14 19:42:52,946 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_194251_9b9bb44a
+2025-09-14 19:48:50,966 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:48:50,967 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:49:39,629 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-09-14 19:53:56,896 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 19:53:56,898 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 19:53:56,898 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 19:53:59,074 - INFO - Testing Python executable...
+2025-09-14 19:53:59,217 - INFO - Python version: Python 3.11.5
+2025-09-14 19:53:59,218 - INFO - Upgrading pip in virtual environment
+2025-09-14 19:54:02,201 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 19:54:02,203 - INFO - Found 6 packages in requirements.txt
+2025-09-14 19:54:02,208 - INFO - Found 20 imports in resume_review_and_contact_info_extraction.py
+2025-09-14 19:54:02,208 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-14 19:54:02,208 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-14 19:54:02,208 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Unknown import 'Tuple' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Unknown import 'load_dotenv' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Unknown import 'Document' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-14 19:54:02,209 - INFO - Analysis summary:
+2025-09-14 19:54:02,209 - INFO -   - Total imports found: 20
+2025-09-14 19:54:02,209 - INFO -   - Built-in modules: 8
+2025-09-14 19:54:02,209 - INFO -   - Packages to install: 15
+2025-09-14 19:54:02,209 - INFO -   - Packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:54:02,209 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-14 19:54:02,209 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-14 19:54:02,209 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-14 19:54:02,209 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 19:54:02,209 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 19:54:02,210 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:54:02,210 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:54:02,210 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:54:02,224 - INFO - Python test successful: Python 3.11.5
+2025-09-14 19:54:02,224 - INFO - Installing 15 packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:54:02,224 - INFO - Installing package: Dict
+2025-09-14 19:54:07,449 - INFO - ✅ Successfully installed: Dict
+2025-09-14 19:54:07,449 - INFO - Installing package: Document
+2025-09-14 19:54:08,794 - INFO - ✅ Successfully installed: Document
+2025-09-14 19:54:08,794 - INFO - Installing package: List
+2025-09-14 19:54:09,272 - WARNING - ❌ Failed to install: List - ERROR: Could not find a version that satisfies the requirement List (from versions: none)
+ERROR: No matching distribution found for List
+
+2025-09-14 19:54:09,272 - INFO - Installing package: Optional
+2025-09-14 19:54:10,632 - INFO - ✅ Successfully installed: Optional
+2025-09-14 19:54:10,632 - INFO - Installing package: Path
+2025-09-14 19:54:11,156 - INFO - ✅ Successfully installed: Path
+2025-09-14 19:54:11,156 - INFO - Installing package: Tuple
+2025-09-14 19:54:11,624 - WARNING - ❌ Failed to install: Tuple - ERROR: Could not find a version that satisfies the requirement Tuple (from versions: none)
+ERROR: No matching distribution found for Tuple
+
+2025-09-14 19:54:11,624 - INFO - Installing package: colorama
+2025-09-14 19:54:12,128 - INFO - ✅ Successfully installed: colorama
+2025-09-14 19:54:12,128 - INFO - Installing package: docx
+2025-09-14 19:54:14,452 - INFO - ✅ Successfully installed: docx
+2025-09-14 19:54:14,452 - INFO - Installing package: load_dotenv
+2025-09-14 19:54:15,067 - INFO - ✅ Successfully installed: load_dotenv
+2025-09-14 19:54:15,067 - INFO - Installing package: load_workbook
+2025-09-14 19:54:15,523 - WARNING - ❌ Failed to install: load_workbook - ERROR: Could not find a version that satisfies the requirement load_workbook (from versions: none)
+ERROR: No matching distribution found for load_workbook
+
+2025-09-14 19:54:15,523 - INFO - Installing package: openpyxl
+2025-09-14 19:54:16,303 - INFO - ✅ Successfully installed: openpyxl
+2025-09-14 19:54:16,303 - INFO - Installing package: pandas
+2025-09-14 19:54:21,622 - INFO - ✅ Successfully installed: pandas
+2025-09-14 19:54:21,622 - INFO - Installing package: pyautogui
+2025-09-14 19:54:29,683 - INFO - ✅ Successfully installed: pyautogui
+2025-09-14 19:54:29,683 - INFO - Installing package: python-dotenv
+2025-09-14 19:54:30,031 - INFO - ✅ Successfully installed: python-dotenv
+2025-09-14 19:54:30,031 - INFO - Installing package: requests
+2025-09-14 19:54:31,110 - INFO - ✅ Successfully installed: requests
+2025-09-14 19:54:31,232 - WARNING - Partial success: 12 installed, 3 failed
+2025-09-14 19:54:31,232 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-14 19:54:31,233 - WARNING - Environment setup completed with some failed packages for resume_review_and_contact_info_extraction
+2025-09-14 19:54:31,336 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:54:31,337 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:55:05,360 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:55:05,372 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:55:05,378 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195505_852dfdbc)
+2025-09-14 19:55:05,388 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:55:05,398 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:55:05,406 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:55:05,407 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:55:05,408 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:55:05,408 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:55:05,408 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:55:05,409 - INFO - Bot process started: PID 10076
+2025-09-14 19:55:13,424 - WARNING - [resume_review_and_contact_info_extraction_20250914_195505_852dfdbc] STDERR: Traceback (most recent call last):
+2025-09-14 19:55:13,525 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195505_852dfdbc
+2025-09-14 19:55:29,020 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:55:29,021 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:56:31,720 - INFO - Found 6 packages in requirements.txt
+2025-09-14 19:56:31,722 - INFO - Found 20 imports in resume_review_and_contact_info_extraction.py
+2025-09-14 19:56:31,723 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'Document' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'load_dotenv' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'Tuple' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-14 19:56:31,723 - INFO - Analysis summary:
+2025-09-14 19:56:31,723 - INFO -   - Total imports found: 20
+2025-09-14 19:56:31,723 - INFO -   - Built-in modules: 8
+2025-09-14 19:56:31,723 - INFO -   - Packages to install: 15
+2025-09-14 19:56:31,723 - INFO -   - Packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:56:38,483 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:56:38,496 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:56:38,501 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195638_766cadf6)
+2025-09-14 19:56:38,513 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:56:38,523 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:56:38,532 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:56:38,533 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:56:38,533 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:56:38,533 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:56:38,534 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:56:38,535 - INFO - Bot process started: PID 11011
+2025-09-14 19:56:39,079 - INFO - [resume_review_and_contact_info_extraction_20250914_195638_766cadf6] STDOUT: 2025-09-14 19:56:39,079 - ERROR - Application error: 'input_directory'
+2025-09-14 19:56:39,224 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195638_766cadf6
+2025-09-14 19:56:59,827 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:56:59,829 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:57:48,405 - INFO - Found 6 packages in requirements.txt
+2025-09-14 19:57:48,407 - INFO - Found 20 imports in resume_review_and_contact_info_extraction.py
+2025-09-14 19:57:48,407 - INFO - Unknown import 'Document' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'load_dotenv' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'Tuple' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-14 19:57:48,407 - INFO - Analysis summary:
+2025-09-14 19:57:48,407 - INFO -   - Total imports found: 20
+2025-09-14 19:57:48,407 - INFO -   - Built-in modules: 8
+2025-09-14 19:57:48,407 - INFO -   - Packages to install: 15
+2025-09-14 19:57:48,408 - INFO -   - Packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:58:06,437 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:06,448 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:58:06,452 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195806_027fa588)
+2025-09-14 19:58:06,461 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:06,471 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:58:06,480 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:06,481 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:58:06,481 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:58:06,481 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:58:06,481 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:58:06,482 - INFO - Bot process started: PID 11833
+2025-09-14 19:58:06,994 - INFO - [resume_review_and_contact_info_extraction_20250914_195806_027fa588] STDOUT: 2025-09-14 19:58:06,994 - ERROR - Application error: 'input_directory'
+2025-09-14 19:58:07,135 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195806_027fa588
+2025-09-14 19:58:21,581 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-14 19:58:21,582 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-14 19:58:21,582 - INFO - Removing existing virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 19:58:23,577 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-14 19:58:25,618 - INFO - Testing Python executable...
+2025-09-14 19:58:25,780 - INFO - Python version: Python 3.11.5
+2025-09-14 19:58:25,781 - INFO - Upgrading pip in virtual environment
+2025-09-14 19:58:28,795 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-14 19:58:28,797 - INFO - Found 6 packages in requirements.txt
+2025-09-14 19:58:28,807 - INFO - Found 20 imports in resume_review_and_contact_info_extraction.py
+2025-09-14 19:58:28,807 - INFO - Unknown import 'Document' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'load_dotenv' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'Tuple' - assuming package name is same
+2025-09-14 19:58:28,807 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-14 19:58:28,808 - INFO - Analysis summary:
+2025-09-14 19:58:28,808 - INFO -   - Total imports found: 20
+2025-09-14 19:58:28,808 - INFO -   - Built-in modules: 8
+2025-09-14 19:58:28,808 - INFO -   - Packages to install: 15
+2025-09-14 19:58:28,808 - INFO -   - Packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:58:28,808 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-14 19:58:28,808 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-14 19:58:28,808 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-14 19:58:28,808 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 19:58:28,809 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-14 19:58:28,809 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:28,809 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:28,809 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:28,828 - INFO - Python test successful: Python 3.11.5
+2025-09-14 19:58:28,829 - INFO - Installing 15 packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:58:28,829 - INFO - Installing package: Dict
+2025-09-14 19:58:33,820 - INFO - ✅ Successfully installed: Dict
+2025-09-14 19:58:33,821 - INFO - Installing package: Document
+2025-09-14 19:58:35,333 - INFO - ✅ Successfully installed: Document
+2025-09-14 19:58:35,333 - INFO - Installing package: List
+2025-09-14 19:58:35,826 - WARNING - ❌ Failed to install: List - ERROR: Could not find a version that satisfies the requirement List (from versions: none)
+ERROR: No matching distribution found for List
+
+2025-09-14 19:58:35,826 - INFO - Installing package: Optional
+2025-09-14 19:58:37,182 - INFO - ✅ Successfully installed: Optional
+2025-09-14 19:58:37,182 - INFO - Installing package: Path
+2025-09-14 19:58:37,696 - INFO - ✅ Successfully installed: Path
+2025-09-14 19:58:37,697 - INFO - Installing package: Tuple
+2025-09-14 19:58:38,191 - WARNING - ❌ Failed to install: Tuple - ERROR: Could not find a version that satisfies the requirement Tuple (from versions: none)
+ERROR: No matching distribution found for Tuple
+
+2025-09-14 19:58:38,191 - INFO - Installing package: colorama
+2025-09-14 19:58:38,702 - INFO - ✅ Successfully installed: colorama
+2025-09-14 19:58:38,702 - INFO - Installing package: docx
+2025-09-14 19:58:41,142 - INFO - ✅ Successfully installed: docx
+2025-09-14 19:58:41,143 - INFO - Installing package: load_dotenv
+2025-09-14 19:58:41,755 - INFO - ✅ Successfully installed: load_dotenv
+2025-09-14 19:58:41,755 - INFO - Installing package: load_workbook
+2025-09-14 19:58:42,209 - WARNING - ❌ Failed to install: load_workbook - ERROR: Could not find a version that satisfies the requirement load_workbook (from versions: none)
+ERROR: No matching distribution found for load_workbook
+
+2025-09-14 19:58:42,209 - INFO - Installing package: openpyxl
+2025-09-14 19:58:42,964 - INFO - ✅ Successfully installed: openpyxl
+2025-09-14 19:58:42,964 - INFO - Installing package: pandas
+2025-09-14 19:58:48,079 - INFO - ✅ Successfully installed: pandas
+2025-09-14 19:58:48,079 - INFO - Installing package: pyautogui
+2025-09-14 19:58:56,161 - INFO - ✅ Successfully installed: pyautogui
+2025-09-14 19:58:56,161 - INFO - Installing package: python-dotenv
+2025-09-14 19:58:56,496 - INFO - ✅ Successfully installed: python-dotenv
+2025-09-14 19:58:56,496 - INFO - Installing package: requests
+2025-09-14 19:58:57,554 - INFO - ✅ Successfully installed: requests
+2025-09-14 19:58:57,675 - WARNING - Partial success: 12 installed, 3 failed
+2025-09-14 19:58:57,676 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-14 19:58:57,677 - WARNING - Environment setup completed with some failed packages for resume_review_and_contact_info_extraction
+2025-09-14 19:58:57,780 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:58:57,781 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:59:19,732 - INFO - Found 6 packages in requirements.txt
+2025-09-14 19:59:19,734 - INFO - Found 20 imports in resume_review_and_contact_info_extraction.py
+2025-09-14 19:59:19,734 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'Document' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'load_dotenv' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'Tuple' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-14 19:59:19,734 - INFO - Analysis summary:
+2025-09-14 19:59:19,734 - INFO -   - Total imports found: 20
+2025-09-14 19:59:19,734 - INFO -   - Built-in modules: 8
+2025-09-14 19:59:19,734 - INFO -   - Packages to install: 15
+2025-09-14 19:59:19,734 - INFO -   - Packages: Dict, Document, List, Optional, Path, Tuple, colorama, docx, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-14 19:59:21,590 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:59:21,599 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:59:21,603 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195921_8d68556d)
+2025-09-14 19:59:21,612 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:59:21,620 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:59:21,628 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:59:21,629 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:59:21,629 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:59:21,629 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:59:21,629 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:59:21,630 - INFO - Bot process started: PID 12654
+2025-09-14 19:59:29,470 - INFO - [resume_review_and_contact_info_extraction_20250914_195921_8d68556d] STDOUT: 2025-09-14 19:59:29,470 - ERROR - Application error: 'input_directory'
+2025-09-14 19:59:29,617 - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195921_8d68556d
+2025-09-14 20:00:25,015 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:00:25,016 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 20:13:40,846 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:13:40,847 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 20:19:45,421 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:19:45,423 - INFO - Bot Execution Engine shutdown complete
+2025-09-14 20:20:20,302 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-09-14 20:23:47,897 - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:23:47,898 - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:14:15,278 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-30 16:14:15,278 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-30 16:14:15,279 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-30 16:14:17,661 - INFO - Testing Python executable...
+2025-09-30 16:14:17,814 - INFO - Python version: Python 3.11.5
+2025-09-30 16:14:17,814 - INFO - Upgrading pip in virtual environment
+2025-09-30 16:14:20,819 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-30 16:14:20,822 - INFO - Found 6 packages in requirements.txt
+2025-09-30 16:14:20,829 - INFO - Found 22 imports in resume_review_and_contact_info_extraction.py
+2025-09-30 16:14:20,830 - INFO - Unknown import 'load_dotenv' - assuming package name is same
+2025-09-30 16:14:20,830 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-30 16:14:20,830 - INFO - Unknown import 'Any' - assuming package name is same
+2025-09-30 16:14:20,830 - INFO - Unknown import 'List' - assuming package name is same
+2025-09-30 16:14:20,830 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-30 16:14:20,830 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-30 16:14:20,830 - INFO - Unknown import 'dataclass' - assuming package name is same
+2025-09-30 16:14:20,831 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-30 16:14:20,831 - INFO - Unknown import 'dataclasses' - assuming package name is same
+2025-09-30 16:14:20,831 - INFO - Analysis summary:
+2025-09-30 16:14:20,831 - INFO -   - Total imports found: 22
+2025-09-30 16:14:20,831 - INFO -   - Built-in modules: 9
+2025-09-30 16:14:20,831 - INFO -   - Packages to install: 15
+2025-09-30 16:14:20,832 - INFO -   - Packages: Any, Dict, List, Optional, Path, colorama, dataclass, dataclasses, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-30 16:14:20,832 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-30 16:14:20,833 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-30 16:14:20,833 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-30 16:14:20,834 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-30 16:14:20,834 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-30 16:14:20,834 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:14:20,835 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:14:20,835 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:14:20,856 - INFO - Python test successful: Python 3.11.5
+2025-09-30 16:14:20,856 - INFO - Installing 15 packages: Any, Dict, List, Optional, Path, colorama, dataclass, dataclasses, load_dotenv, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-30 16:14:20,857 - INFO - Installing package: Any
+2025-09-30 16:14:30,447 - INFO - ✅ Successfully installed: Any
+2025-09-30 16:14:30,447 - INFO - Installing package: Dict
+2025-09-30 16:14:35,944 - INFO - ✅ Successfully installed: Dict
+2025-09-30 16:14:35,946 - INFO - Installing package: List
+2025-09-30 16:14:36,453 - WARNING - ❌ Failed to install: List - ERROR: Could not find a version that satisfies the requirement List (from versions: none)
+ERROR: No matching distribution found for List
+
+2025-09-30 16:14:36,453 - INFO - Installing package: Optional
+2025-09-30 16:14:37,945 - INFO - ✅ Successfully installed: Optional
+2025-09-30 16:14:37,945 - INFO - Installing package: Path
+2025-09-30 16:14:38,696 - INFO - ✅ Successfully installed: Path
+2025-09-30 16:14:38,696 - INFO - Installing package: colorama
+2025-09-30 16:14:39,262 - INFO - ✅ Successfully installed: colorama
+2025-09-30 16:14:39,263 - INFO - Installing package: dataclass
+2025-09-30 16:14:39,681 - WARNING - ❌ Failed to install: dataclass - ERROR: Could not find a version that satisfies the requirement dataclass (from versions: none)
+ERROR: No matching distribution found for dataclass
+
+2025-09-30 16:14:39,681 - INFO - Installing package: dataclasses
+2025-09-30 16:14:40,239 - INFO - ✅ Successfully installed: dataclasses
+2025-09-30 16:14:40,240 - INFO - Installing package: load_dotenv
+2025-09-30 16:14:40,965 - INFO - ✅ Successfully installed: load_dotenv
+2025-09-30 16:14:40,965 - INFO - Installing package: load_workbook
+2025-09-30 16:14:41,461 - WARNING - ❌ Failed to install: load_workbook - ERROR: Could not find a version that satisfies the requirement load_workbook (from versions: none)
+ERROR: No matching distribution found for load_workbook
+
+2025-09-30 16:14:41,462 - INFO - Installing package: openpyxl
+2025-09-30 16:14:42,314 - INFO - ✅ Successfully installed: openpyxl
+2025-09-30 16:14:42,314 - INFO - Installing package: pandas
+2025-09-30 16:14:47,552 - INFO - ✅ Successfully installed: pandas
+2025-09-30 16:14:47,552 - INFO - Installing package: pyautogui
+2025-09-30 16:14:55,921 - INFO - ✅ Successfully installed: pyautogui
+2025-09-30 16:14:55,921 - INFO - Installing package: python-dotenv
+2025-09-30 16:14:56,279 - INFO - ✅ Successfully installed: python-dotenv
+2025-09-30 16:14:56,279 - INFO - Installing package: requests
+2025-09-30 16:14:56,633 - INFO - ✅ Successfully installed: requests
+2025-09-30 16:14:56,770 - WARNING - Partial success: 12 installed, 3 failed
+2025-09-30 16:14:56,771 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-30 16:14:56,772 - WARNING - Environment setup completed with some failed packages for resume_review_and_contact_info_extraction
+2025-09-30 16:14:56,875 - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:14:56,875 - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:21:04,786 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:21:04,796 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:21:04,806 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250930_162104_589bb59c)
+2025-09-30 16:21:04,814 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:21:04,822 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:21:04,829 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:21:04,830 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-30 16:21:04,830 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-30 16:21:04,831 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-30 16:21:04,831 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-30 16:21:04,832 - INFO - Bot process started: PID 94955
+2025-09-30 16:21:05,532 - INFO - [resume_review_and_contact_info_extraction_20250930_162104_589bb59c] STDOUT: ✅ Automation completed: {
+2025-09-30 16:21:05,683 - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250930_162104_589bb59c
+2025-09-30 16:30:41,748 - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:30:41,762 - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:30:45,630 - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:30:45,630 - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:31:27,448 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-09-30 16:32:55,756 - INFO - Setting up complete environment for bot: resume_review_and_contact_info_extraction
+2025-09-30 16:32:55,758 - INFO - Creating virtual environment for resume_review_and_contact_info_extraction
+2025-09-30 16:32:55,758 - INFO - Creating virtual environment: generated_bots/resume_review_and_contact_info_extraction/venv
+2025-09-30 16:32:58,109 - INFO - Testing Python executable...
+2025-09-30 16:32:58,278 - INFO - Python version: Python 3.11.5
+2025-09-30 16:32:58,278 - INFO - Upgrading pip in virtual environment
+2025-09-30 16:33:01,299 - INFO - Installing packages for resume_review_and_contact_info_extraction
+2025-09-30 16:33:01,302 - INFO - Found 6 packages in requirements.txt
+2025-09-30 16:33:01,308 - INFO - Found 14 imports in resume_review_and_contact_info_extraction.py
+2025-09-30 16:33:01,308 - INFO - Unknown import 'Dict' - assuming package name is same
+2025-09-30 16:33:01,308 - INFO - Unknown import 'Path' - assuming package name is same
+2025-09-30 16:33:01,308 - INFO - Unknown import 'docx' - assuming package name is same
+2025-09-30 16:33:01,308 - INFO - Unknown import 'Optional' - assuming package name is same
+2025-09-30 16:33:01,308 - INFO - Unknown import 'load_workbook' - assuming package name is same
+2025-09-30 16:33:01,308 - INFO - Analysis summary:
+2025-09-30 16:33:01,308 - INFO -   - Total imports found: 14
+2025-09-30 16:33:01,308 - INFO -   - Built-in modules: 7
+2025-09-30 16:33:01,308 - INFO -   - Packages to install: 11
+2025-09-30 16:33:01,309 - INFO -   - Packages: Dict, Optional, Path, colorama, docx, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-30 16:33:01,309 - INFO - Virtual environment contents: ['bin', 'include', 'pyvenv.cfg', 'lib']
+2025-09-30 16:33:01,309 - INFO - bin/ directory contents: ['Activate.ps1', 'python3', 'python', 'pip3', 'activate.fish', 'python3.11', 'pip', 'pip3.11', 'activate', 'activate.csh']
+2025-09-30 16:33:01,309 - INFO - Searching for Python executable in candidates: ['generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python', 'generated_bots/resume_review_and_contact_info_extraction/venv/bin/python3.11', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python.exe', 'generated_bots/resume_review_and_contact_info_extraction/venv/Scripts/python3.exe']
+2025-09-30 16:33:01,309 - INFO - Checking candidate: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-30 16:33:01,310 - INFO - Resolved path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python - Exists: True
+2025-09-30 16:33:01,310 - INFO - Using resolved Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:33:01,310 - INFO - Testing Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:33:01,310 - INFO - Absolute Python path: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:33:01,331 - INFO - Python test successful: Python 3.11.5
+2025-09-30 16:33:01,332 - INFO - Installing 11 packages: Dict, Optional, Path, colorama, docx, load_workbook, openpyxl, pandas, pyautogui, python-dotenv, requests
+2025-09-30 16:33:01,332 - INFO - Installing package: Dict
+2025-09-30 16:33:06,410 - INFO - ✅ Successfully installed: Dict
+2025-09-30 16:33:06,410 - INFO - Installing package: Optional
+2025-09-30 16:33:07,863 - INFO - ✅ Successfully installed: Optional
+2025-09-30 16:33:07,864 - INFO - Installing package: Path
+2025-09-30 16:33:08,401 - INFO - ✅ Successfully installed: Path
+2025-09-30 16:33:08,401 - INFO - Installing package: colorama
+2025-09-30 16:33:08,953 - INFO - ✅ Successfully installed: colorama
+2025-09-30 16:33:08,953 - INFO - Installing package: docx
+2025-09-30 16:33:11,374 - INFO - ✅ Successfully installed: docx
+2025-09-30 16:33:11,374 - INFO - Installing package: load_workbook
+2025-09-30 16:33:11,855 - WARNING - ❌ Failed to install: load_workbook - ERROR: Could not find a version that satisfies the requirement load_workbook (from versions: none)
+ERROR: No matching distribution found for load_workbook
+
+2025-09-30 16:33:11,855 - INFO - Installing package: openpyxl
+2025-09-30 16:33:12,659 - INFO - ✅ Successfully installed: openpyxl
+2025-09-30 16:33:12,660 - INFO - Installing package: pandas
+2025-09-30 16:33:17,853 - INFO - ✅ Successfully installed: pandas
+2025-09-30 16:33:17,853 - INFO - Installing package: pyautogui
+2025-09-30 16:33:25,254 - INFO - ✅ Successfully installed: pyautogui
+2025-09-30 16:33:25,255 - INFO - Installing package: python-dotenv
+2025-09-30 16:33:25,794 - INFO - ✅ Successfully installed: python-dotenv
+2025-09-30 16:33:25,794 - INFO - Installing package: requests
+2025-09-30 16:33:26,896 - INFO - ✅ Successfully installed: requests
+2025-09-30 16:33:27,015 - WARNING - Partial success: 10 installed, 1 failed
+2025-09-30 16:33:27,015 - INFO - Created activation script: generated_bots/resume_review_and_contact_info_extraction/activate_and_run.sh
+2025-09-30 16:33:27,016 - WARNING - Environment setup completed with some failed packages for resume_review_and_contact_info_extraction
+2025-09-30 16:33:27,118 - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:33:27,119 - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:37:22,668 - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:37:22,669 - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:39:38,656 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:39:38,667 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:39:38,672 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250930_163938_a29c625f)
+2025-09-30 16:39:38,682 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:39:38,692 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:39:38,701 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:39:38,702 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-30 16:39:38,702 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-30 16:39:38,702 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-30 16:39:38,702 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-30 16:39:38,704 - INFO - Bot process started: PID 99032
+2025-09-30 16:39:39,236 - INFO - [resume_review_and_contact_info_extraction_20250930_163938_a29c625f] STDOUT: 2025-09-30 16:39:39,236 - INFO - Processing resume: Samantha J - Resume.docx
+2025-09-30 16:39:39,417 - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250930_163938_a29c625f
+2025-09-30 16:40:08,688 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:40:08,706 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:40:08,711 - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250930_164008_e65b5bc8)
+2025-09-30 16:40:08,722 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:40:08,732 - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:40:08,743 - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:40:08,743 - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-30 16:40:08,744 - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-30 16:40:08,744 - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-30 16:40:08,744 - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-30 16:40:08,745 - INFO - Bot process started: PID 99074
+2025-09-30 16:40:09,273 - INFO - [resume_review_and_contact_info_extraction_20250930_164008_e65b5bc8] STDOUT: 2025-09-30 16:40:09,273 - INFO - Processing resume: Samantha J - Resume.docx
+2025-09-30 16:40:09,452 - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250930_164008_e65b5bc8
+2025-09-30 17:16:35,200 - INFO - Shutting down Bot Execution Engine...
+2025-09-30 17:16:35,203 - INFO - Bot Execution Engine shutdown complete
+2025-10-12 17:18:38,204 - INFO - Shutting down Bot Execution Engine...
+2025-10-12 17:18:38,206 - INFO - Bot Execution Engine shutdown complete
+2025-10-12 18:37:38,921 - INFO - Shutting down Bot Execution Engine...
+2025-10-12 18:37:38,921 - INFO - Bot Execution Engine shutdown complete

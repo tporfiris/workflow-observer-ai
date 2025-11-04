@@ -1,0 +1,13 @@
+{
+  "target_platform": "Darwin",
+  "python_version": "3.11.5",
+  "compatible_libraries": [
+    "colorama>=0.4.6",
+    "openpyxl>=3.1.0",
+    "pandas>=2.1.0",
+    "pyautogui>=0.9.54",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0"
+  ],
+  "generation_date": "2025-09-30T16:31:27.470317"
+}

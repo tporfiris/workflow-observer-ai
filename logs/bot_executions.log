@@ -146,3 +146,294 @@
 2025-08-27 17:50:27,049 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_entry_20250827_175022_4934d88b
 2025-08-27 19:36:54,912 - bot_executor - INFO - Shutting down Bot Execution Engine...
 2025-08-27 19:36:54,913 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-08-28 18:28:15,434 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-28 18:28:15,443 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-08-28 18:28:15,452 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250828_182815_2343eb43)
+2025-08-28 18:28:15,461 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-28 18:28:15,469 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-08-28 18:28:15,478 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-08-28 18:28:15,479 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-08-28 18:28:15,479 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-08-28 18:28:15,479 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-08-28 18:28:15,479 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-08-28 18:28:15,480 - bot_executor - INFO - Bot process started: PID 3120
+2025-08-28 18:28:15,532 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250828_182815_2343eb43] STDERR: Traceback (most recent call last):
+2025-08-28 18:28:15,637 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250828_182815_2343eb43
+2025-09-14 17:51:08,938 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:51:08,941 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:53:15,659 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:53:15,671 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:53:15,677 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_175315_e726872c)
+2025-09-14 17:53:15,716 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:53:15,728 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:53:15,737 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:53:15,738 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 17:53:15,738 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:53:15,738 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 17:53:15,738 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 17:53:15,739 - bot_executor - INFO - Bot process started: PID 42714
+2025-09-14 17:53:17,416 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_175315_e726872c] STDERR: Traceback (most recent call last):
+2025-09-14 17:53:17,521 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_175315_e726872c
+2025-09-14 17:58:18,128 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:58:18,129 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:58:37,584 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:58:37,596 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:58:37,601 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_175837_f75843a7)
+2025-09-14 17:58:37,611 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:58:37,620 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:58:37,629 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:58:37,630 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 17:58:37,630 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:58:37,630 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 17:58:37,630 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 17:58:37,632 - bot_executor - INFO - Bot process started: PID 45675
+2025-09-14 17:58:38,182 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_175837_f75843a7] STDERR: Traceback (most recent call last):
+2025-09-14 17:58:38,288 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_175837_f75843a7
+2025-09-14 17:58:56,057 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:58:56,058 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:59:31,429 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 17:59:31,430 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 17:59:46,970 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:46,986 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:59:46,991 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_175946_24dcab18)
+2025-09-14 17:59:47,003 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:47,014 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 17:59:47,024 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 17:59:47,025 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 17:59:47,025 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 17:59:47,026 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 17:59:47,026 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 17:59:47,027 - bot_executor - INFO - Bot process started: PID 46384
+2025-09-14 17:59:47,058 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_175946_24dcab18] STDERR: Traceback (most recent call last):
+2025-09-14 17:59:47,163 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_175946_24dcab18
+2025-09-14 18:01:40,505 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:01:40,506 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:01:50,599 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:01:50,608 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:01:50,613 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_180150_711bace6)
+2025-09-14 18:01:50,621 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:01:50,630 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:01:50,639 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:01:50,640 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:01:50,640 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:01:50,641 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:01:50,641 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:01:50,642 - bot_executor - INFO - Bot process started: PID 47634
+2025-09-14 18:01:50,674 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_180150_711bace6] STDERR: Traceback (most recent call last):
+2025-09-14 18:01:50,779 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_180150_711bace6
+2025-09-14 18:02:17,696 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:02:17,698 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:02:49,249 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:02:49,259 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:02:49,263 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_180249_52b7735b)
+2025-09-14 18:02:49,271 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:02:49,282 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:02:49,291 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:02:49,292 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:02:49,293 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:02:49,293 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:02:49,293 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:02:49,294 - bot_executor - INFO - Bot process started: PID 48210
+2025-09-14 18:02:57,950 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250914_180249_52b7735b] STDOUT: ✅ Automation completed: {'processed_files': 3, 'failed_files': 0, 'execution_time': 0.03234601020812988}
+2025-09-14 18:02:57,950 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_180249_52b7735b] STDERR: 2025-09-14 18:02:57,164 - INFO - Processing /Users/teddyporfiris/Documents/resume-candidates/Samantha J - Resume.docx
+2025-09-14 18:02:58,055 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250914_180249_52b7735b
+2025-09-14 18:03:20,237 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:03:20,247 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:03:20,251 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e)
+2025-09-14 18:03:20,268 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:03:20,312 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:03:20,329 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:03:20,330 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:03:20,330 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:03:20,330 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:03:20,330 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:03:20,332 - bot_executor - INFO - Bot process started: PID 48506
+2025-09-14 18:03:21,610 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e] STDOUT: ✅ Automation completed: {'processed_files': 3, 'failed_files': 0, 'execution_time': 0.029927730560302734}
+2025-09-14 18:03:21,610 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e] STDERR: 2025-09-14 18:03:20,844 - INFO - Processing /Users/teddyporfiris/Documents/resume-candidates/Samantha J - Resume.docx
+2025-09-14 18:03:21,711 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250914_180320_1ea1fb6e
+2025-09-14 18:12:11,152 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:12:11,153 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:17:39,204 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:17:39,205 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:17:46,356 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:46,367 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:17:46,372 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_181746_047f0e05)
+2025-09-14 18:17:46,381 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:46,390 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:17:46,407 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:17:46,422 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:17:46,423 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:17:46,423 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:17:46,423 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:17:46,425 - bot_executor - INFO - Bot process started: PID 56257
+2025-09-14 18:17:46,459 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_181746_047f0e05] STDERR: Traceback (most recent call last):
+2025-09-14 18:17:46,564 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_181746_047f0e05
+2025-09-14 18:19:41,212 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:19:41,213 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:22:13,135 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:22:13,136 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:22:31,860 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:22:31,872 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:22:31,877 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_182231_355daaff)
+2025-09-14 18:22:31,888 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:22:31,898 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 18:22:31,907 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 18:22:31,908 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 18:22:31,909 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 18:22:31,909 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 18:22:31,909 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 18:22:31,910 - bot_executor - INFO - Bot process started: PID 58918
+2025-09-14 18:22:31,938 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_182231_355daaff] STDERR: Traceback (most recent call last):
+2025-09-14 18:22:32,043 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_182231_355daaff
+2025-09-14 18:23:02,830 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:23:02,830 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:23:31,563 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:23:31,564 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 18:23:39,091 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 18:23:39,093 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:26:50,774 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:26:50,777 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:26:59,796 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:26:59,796 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:27:48,957 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:27:48,959 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:41:43,714 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:41:43,714 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:42:51,405 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:42:51,415 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:42:51,420 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_194251_9b9bb44a)
+2025-09-14 19:42:51,429 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:42:51,438 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:42:51,447 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:42:51,448 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:42:51,448 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:42:51,449 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:42:51,449 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:42:51,450 - bot_executor - INFO - Bot process started: PID 3278
+2025-09-14 19:42:52,841 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_194251_9b9bb44a] STDERR: Traceback (most recent call last):
+2025-09-14 19:42:52,946 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_194251_9b9bb44a
+2025-09-14 19:48:50,966 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:48:50,967 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:54:31,336 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:54:31,337 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:55:05,360 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:55:05,372 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:55:05,378 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195505_852dfdbc)
+2025-09-14 19:55:05,388 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:55:05,398 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:55:05,406 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:55:05,407 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:55:05,408 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:55:05,408 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:55:05,408 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:55:05,409 - bot_executor - INFO - Bot process started: PID 10076
+2025-09-14 19:55:13,424 - bot_executor - WARNING - [resume_review_and_contact_info_extraction_20250914_195505_852dfdbc] STDERR: Traceback (most recent call last):
+2025-09-14 19:55:13,525 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195505_852dfdbc
+2025-09-14 19:55:29,020 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:55:29,021 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:56:38,483 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:56:38,496 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:56:38,501 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195638_766cadf6)
+2025-09-14 19:56:38,513 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:56:38,523 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:56:38,532 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:56:38,533 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:56:38,533 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:56:38,533 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:56:38,534 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:56:38,535 - bot_executor - INFO - Bot process started: PID 11011
+2025-09-14 19:56:39,079 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250914_195638_766cadf6] STDOUT: 2025-09-14 19:56:39,079 - ERROR - Application error: 'input_directory'
+2025-09-14 19:56:39,224 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195638_766cadf6
+2025-09-14 19:56:59,827 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:56:59,829 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:58:06,437 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:06,448 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:58:06,452 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195806_027fa588)
+2025-09-14 19:58:06,461 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:06,471 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:58:06,480 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:58:06,481 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:58:06,481 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:58:06,481 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:58:06,481 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:58:06,482 - bot_executor - INFO - Bot process started: PID 11833
+2025-09-14 19:58:06,994 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250914_195806_027fa588] STDOUT: 2025-09-14 19:58:06,994 - ERROR - Application error: 'input_directory'
+2025-09-14 19:58:07,135 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195806_027fa588
+2025-09-14 19:58:57,780 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 19:58:57,781 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 19:59:21,590 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:59:21,599 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:59:21,603 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250914_195921_8d68556d)
+2025-09-14 19:59:21,612 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:59:21,620 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-14 19:59:21,628 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-14 19:59:21,629 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-14 19:59:21,629 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-14 19:59:21,629 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-14 19:59:21,629 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-14 19:59:21,630 - bot_executor - INFO - Bot process started: PID 12654
+2025-09-14 19:59:29,470 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250914_195921_8d68556d] STDOUT: 2025-09-14 19:59:29,470 - ERROR - Application error: 'input_directory'
+2025-09-14 19:59:29,617 - bot_executor - ERROR - Bot execution failed with exit code 1: resume_review_and_contact_info_extraction_20250914_195921_8d68556d
+2025-09-14 20:00:25,015 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:00:25,016 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 20:13:40,846 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:13:40,847 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 20:19:45,421 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:19:45,423 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-14 20:23:47,897 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-14 20:23:47,898 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:14:56,875 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:14:56,875 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:21:04,786 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:21:04,796 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:21:04,806 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250930_162104_589bb59c)
+2025-09-30 16:21:04,814 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:21:04,822 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:21:04,829 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:21:04,830 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-30 16:21:04,830 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-30 16:21:04,831 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-30 16:21:04,831 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-30 16:21:04,832 - bot_executor - INFO - Bot process started: PID 94955
+2025-09-30 16:21:05,532 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250930_162104_589bb59c] STDOUT: ✅ Automation completed: {
+2025-09-30 16:21:05,683 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250930_162104_589bb59c
+2025-09-30 16:30:41,748 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:30:41,762 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:30:45,630 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:30:45,630 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:33:27,118 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:33:27,119 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:37:22,668 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-30 16:37:22,669 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-09-30 16:39:38,656 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:39:38,667 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:39:38,672 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250930_163938_a29c625f)
+2025-09-30 16:39:38,682 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:39:38,692 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:39:38,701 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:39:38,702 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-30 16:39:38,702 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-30 16:39:38,702 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-30 16:39:38,702 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-30 16:39:38,704 - bot_executor - INFO - Bot process started: PID 99032
+2025-09-30 16:39:39,236 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250930_163938_a29c625f] STDOUT: 2025-09-30 16:39:39,236 - INFO - Processing resume: Samantha J - Resume.docx
+2025-09-30 16:39:39,417 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250930_163938_a29c625f
+2025-09-30 16:40:08,688 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:40:08,706 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:40:08,711 - bot_executor - INFO - Starting bot execution: resume_review_and_contact_info_extraction (execution_id: resume_review_and_contact_info_extraction_20250930_164008_e65b5bc8)
+2025-09-30 16:40:08,722 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:40:08,732 - bot_executor - INFO - Python executable validated: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python -> Python 3.11.5
+2025-09-30 16:40:08,743 - bot_executor - INFO - Found working Python executable: generated_bots/resume_review_and_contact_info_extraction/venv/bin/python
+2025-09-30 16:40:08,743 - bot_executor - INFO - Executing command: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py
+2025-09-30 16:40:08,744 - bot_executor - INFO - Working directory: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction
+2025-09-30 16:40:08,744 - bot_executor - INFO - Python executable: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/venv/bin/python (exists: True)
+2025-09-30 16:40:08,744 - bot_executor - INFO - Script file: /Users/teddyporfiris/Documents/workflow-observer-ai/generated_bots/resume_review_and_contact_info_extraction/resume_review_and_contact_info_extraction.py (exists: True)
+2025-09-30 16:40:08,745 - bot_executor - INFO - Bot process started: PID 99074
+2025-09-30 16:40:09,273 - bot_executor - INFO - [resume_review_and_contact_info_extraction_20250930_164008_e65b5bc8] STDOUT: 2025-09-30 16:40:09,273 - INFO - Processing resume: Samantha J - Resume.docx
+2025-09-30 16:40:09,452 - bot_executor - INFO - Bot execution completed successfully: resume_review_and_contact_info_extraction_20250930_164008_e65b5bc8
+2025-09-30 17:16:35,200 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-09-30 17:16:35,203 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-10-12 17:18:38,204 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-10-12 17:18:38,206 - bot_executor - INFO - Bot Execution Engine shutdown complete
+2025-10-12 18:37:38,921 - bot_executor - INFO - Shutting down Bot Execution Engine...
+2025-10-12 18:37:38,921 - bot_executor - INFO - Bot Execution Engine shutdown complete

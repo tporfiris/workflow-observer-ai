@@ -29,10 +29,17 @@ import uvicorn
 
 # Import our existing components
 from capture_agent import ScreenCaptureAgent
-from cloud_vlm_analyzer import OptimizedVLMAnalyzer
+
+
+# from cloud_vlm_analyzer import OptimizedVLMAnalyzer
+from secure_vlm_analyzer import SecureVLMAnalyzer as OptimizedVLMAnalyzer
+
+
 from llm_pattern_detector import load_data, create_prompt, analyze_with_claude
-from bot_generator import BotCodeGenerator
-from package_installer import PackageInstaller
+# from bot_generator import BotCodeGenerator
+# from package_installer import PackageInstaller
+from enhanced_bot_generator import EnhancedBotCodeGenerator
+from enhanced_package_installer import PackageInstaller
 from bot_executor import BotExecutor, BotStatus
 
 # Initialize FastAPI app
@@ -45,7 +52,8 @@ app = FastAPI(
 # Global variables to manage state
 capture_agent: Optional[ScreenCaptureAgent] = None
 vlm_analyzer: Optional[OptimizedVLMAnalyzer] = None
-bot_generator: Optional[BotCodeGenerator] = None
+# bot_generator: Optional[BotCodeGenerator] = None
+bot_generator: Optional[EnhancedBotCodeGenerator] = None
 package_installer: Optional[PackageInstaller] = None
 bot_executor: Optional[BotExecutor] = None
 monitoring_active = False
@@ -103,7 +111,8 @@ async def startup_event():
     
     # Initialize Bot Generator
     try:
-        bot_generator = BotCodeGenerator()
+        # bot_generator = BotCodeGenerator()
+        bot_generator = EnhancedBotCodeGenerator()
         print("✅ Bot Generator initialized")
     except Exception as e:
         print(f"⚠️  Bot Generator initialization failed: {e}")
